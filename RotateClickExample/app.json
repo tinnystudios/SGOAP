@@ -27,7 +27,7 @@
 			"near": 0.1,
 			"far": 100000,
 			"focus": 10,
-			"aspect": 1.185595567867036,
+			"aspect": 1.2891566265060241,
 			"filmGauge": 35,
 			"filmOffset": 0
 		}
@@ -267,7 +267,7 @@
 		"F9BC8F8F-D81A-4F15-B726-AFC6731B586A": [
 			{
 				"name": "Link",
-				"source": "\n\nconst raycaster = new THREE.Raycaster();\nconst mouse = new THREE.Vector2();\n\nfunction windowresize() {\n\n\tcamera.aspect = window.innerWidth / window.innerHeight;\n\tcamera.updateProjectionMatrix();\n\n\trenderer.setSize( window.innerWidth, window.innerHeight );\n\n}\n\nfunction pointerdown ( event ) {\n\n\tcamera.aspect = window.innerWidth / window.innerHeight;\n\tcamera.updateProjectionMatrix();\n\n\trenderer.setSize( window.innerWidth, window.innerHeight );\n\t\t// update the picking ray with the camera and mouse position\n\traycaster.setFromCamera( mouse, camera );\n\n\t// calculate objects intersecting the picking ray\n\tconst intersects = raycaster.intersectObjects( scene.children, true );\n\t\n\tfor(var i = 0; i < intersects.length; i++){\n\t\tif(intersects[i].object.name == this.name){\n\t\t\twindow.open(\"https://liminalvr.com\");\n\t\t}\n\t}\n\t\n\tif(intersects.length > 0){\n\t\tvar firstIntersect = intersects[0];\n\t\tconsole.log(firstIntersect.object.name);\n\t}\t\n\t//nsole.log(firstIntersect);\n\t//window.open(\"https://www.w3schools.com\");\n}\n\nfunction pointermove( event ) {\n\t// calculate mouse position in normalized device coordinates\n\t// (-1 to +1) for both components\n\n\tmouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;\n\tmouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;\n}\n\n\nfunction update( event ) {\n\t\n}"
+				"source": "\n\nconst raycaster = new THREE.Raycaster();\nconst mouse = new THREE.Vector2();\n\nfunction init(){\n\tonWindowResize();\n}\n\nfunction onWindowResize() {\n\n\tcamera.aspect = window.innerWidth / window.innerHeight;\n\tcamera.updateProjectionMatrix();\n\n\trenderer.setSize( window.innerWidth, window.innerHeight );\n\n\t\n\t//if(deviceInfo == 0)\n\t//  \trenderer.setSize( window.innerWidth, window.innerHeight );\n  \t//else\n  \t//  \trenderer.setSize( preMetaWidth, preMetaHeight );\n}\n\nfunction pointerdown ( event ) {\n\tonWindowResize();\n}\n\nfunction pointerup ( event ) { \n\t// update the picking ray with the camera and mouse position\n\traycaster.setFromCamera( mouse, camera );\n\n\t// calculate objects intersecting the picking ray\n\tconst intersects = raycaster.intersectObjects( scene.children, true );\n\t\n\tfor(var i = 0; i < intersects.length; i++){\n\t\tif(intersects[i].object.name == this.name){\n\t\t\twindow.open(\"https://liminalvr.com\");\n\t\t}\n\t}\n\t\n\tif(intersects.length > 0){\n\t\tvar firstIntersect = intersects[0];\n\t\tconsole.log(firstIntersect.object.name);\n\t}\t\n\t//nsole.log(firstIntersect);\n\t//window.open(\"https://www.w3schools.com\");\n}\n\nfunction pointermove( event ) {\n\t// calculate mouse position in normalized device coordinates\n\t// (-1 to +1) for both components\n\n\tmouse.x = ( event.clientX / window.innerWidth ) * 2 - 1;\n\tmouse.y = - ( event.clientY / window.innerHeight ) * 2 + 1;\n}\n\n\nfunction update( event ) {\n\t\n}"
 			}]
 	}
 }
