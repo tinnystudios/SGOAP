@@ -13,54 +13,36 @@ references:
   commentId: T:TinnyStudios.AIUtility.ActionMoveData
   fullName: TinnyStudios.AIUtility.ActionMoveData
   nameWithType: ActionMoveData
-- uid: TinnyStudios.AIUtility.ActionMoveData.Acceleration
-  name: Acceleration
-  href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_Acceleration
-  commentId: F:TinnyStudios.AIUtility.ActionMoveData.Acceleration
-  fullName: TinnyStudios.AIUtility.ActionMoveData.Acceleration
-  nameWithType: ActionMoveData.Acceleration
-- uid: TinnyStudios.AIUtility.ActionMoveData.AngularSpeed
-  name: AngularSpeed
-  href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_AngularSpeed
-  commentId: F:TinnyStudios.AIUtility.ActionMoveData.AngularSpeed
-  fullName: TinnyStudios.AIUtility.ActionMoveData.AngularSpeed
-  nameWithType: ActionMoveData.AngularSpeed
 - uid: TinnyStudios.AIUtility.ActionMoveData.DestinationTransform
   name: DestinationTransform
   href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_DestinationTransform
   commentId: F:TinnyStudios.AIUtility.ActionMoveData.DestinationTransform
   fullName: TinnyStudios.AIUtility.ActionMoveData.DestinationTransform
   nameWithType: ActionMoveData.DestinationTransform
+- uid: TinnyStudios.AIUtility.ActionMoveData.Properties
+  name: Properties
+  href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_Properties
+  commentId: F:TinnyStudios.AIUtility.ActionMoveData.Properties
+  fullName: TinnyStudios.AIUtility.ActionMoveData.Properties
+  nameWithType: ActionMoveData.Properties
 - uid: TinnyStudios.AIUtility.ActionMoveData.Required
   name: Required
   href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_Required
   commentId: F:TinnyStudios.AIUtility.ActionMoveData.Required
   fullName: TinnyStudios.AIUtility.ActionMoveData.Required
   nameWithType: ActionMoveData.Required
-- uid: TinnyStudios.AIUtility.ActionMoveData.Speed
-  name: Speed
-  href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_Speed
-  commentId: F:TinnyStudios.AIUtility.ActionMoveData.Speed
-  fullName: TinnyStudios.AIUtility.ActionMoveData.Speed
-  nameWithType: ActionMoveData.Speed
-- uid: TinnyStudios.AIUtility.ActionMoveData.StopDistance
-  name: StopDistance
-  href: api/TinnyStudios.AIUtility.ActionMoveData.html#TinnyStudios_AIUtility_ActionMoveData_StopDistance
-  commentId: F:TinnyStudios.AIUtility.ActionMoveData.StopDistance
-  fullName: TinnyStudios.AIUtility.ActionMoveData.StopDistance
-  nameWithType: ActionMoveData.StopDistance
 - uid: TinnyStudios.AIUtility.ActionPerformData
   name: ActionPerformData
   href: api/TinnyStudios.AIUtility.ActionPerformData.html
   commentId: T:TinnyStudios.AIUtility.ActionPerformData
   fullName: TinnyStudios.AIUtility.ActionPerformData
   nameWithType: ActionPerformData
-- uid: TinnyStudios.AIUtility.ActionPerformData.Duration
-  name: Duration
-  href: api/TinnyStudios.AIUtility.ActionPerformData.html#TinnyStudios_AIUtility_ActionPerformData_Duration
-  commentId: F:TinnyStudios.AIUtility.ActionPerformData.Duration
-  fullName: TinnyStudios.AIUtility.ActionPerformData.Duration
-  nameWithType: ActionPerformData.Duration
+- uid: TinnyStudios.AIUtility.ActionPerformData.Properties
+  name: Properties
+  href: api/TinnyStudios.AIUtility.ActionPerformData.html#TinnyStudios_AIUtility_ActionPerformData_Properties
+  commentId: F:TinnyStudios.AIUtility.ActionPerformData.Properties
+  fullName: TinnyStudios.AIUtility.ActionPerformData.Properties
+  nameWithType: ActionPerformData.Properties
 - uid: TinnyStudios.AIUtility.Agent
   name: Agent
   href: api/TinnyStudios.AIUtility.Agent.html
@@ -117,6 +99,12 @@ references:
   commentId: F:TinnyStudios.AIUtility.Agent.AgentEvents.OnActionSkipped
   fullName: TinnyStudios.AIUtility.Agent.AgentEvents.OnActionSkipped
   nameWithType: Agent.AgentEvents.OnActionSkipped
+- uid: TinnyStudios.AIUtility.Agent.AgentEvents.OnFailed
+  name: OnFailed
+  href: api/TinnyStudios.AIUtility.Agent.AgentEvents.html#TinnyStudios_AIUtility_Agent_AgentEvents_OnFailed
+  commentId: F:TinnyStudios.AIUtility.Agent.AgentEvents.OnFailed
+  fullName: TinnyStudios.AIUtility.Agent.AgentEvents.OnFailed
+  nameWithType: Agent.AgentEvents.OnFailed
 - uid: TinnyStudios.AIUtility.Agent.AgentEvents.OnIdle
   name: OnIdle
   href: api/TinnyStudios.AIUtility.Agent.AgentEvents.html#TinnyStudios_AIUtility_Agent_AgentEvents_OnIdle
@@ -448,6 +436,12 @@ references:
   commentId: F:TinnyStudios.AIUtility.Agent.State
   fullName: TinnyStudios.AIUtility.Agent.State
   nameWithType: Agent.State
+- uid: TinnyStudios.AIUtility.Agent.StateNames
+  name: StateNames
+  href: api/TinnyStudios.AIUtility.Agent.html#TinnyStudios_AIUtility_Agent_StateNames
+  commentId: F:TinnyStudios.AIUtility.Agent.StateNames
+  fullName: TinnyStudios.AIUtility.Agent.StateNames
+  nameWithType: Agent.StateNames
 - uid: TinnyStudios.AIUtility.Agent.Update
   name: Update()
   href: api/TinnyStudios.AIUtility.Agent.html#TinnyStudios_AIUtility_Agent_Update
@@ -473,12 +467,12 @@ references:
   commentId: T:TinnyStudios.AIUtility.AgentLogger
   fullName: TinnyStudios.AIUtility.AgentLogger
   nameWithType: AgentLogger
-- uid: TinnyStudios.AIUtility.AgentLogger.Log(TinnyStudios.AIUtility.Agent,System.String,TinnyStudios.AIUtility.EAgentLogType)
-  name: Log(Agent, String, EAgentLogType)
-  href: api/TinnyStudios.AIUtility.AgentLogger.html#TinnyStudios_AIUtility_AgentLogger_Log_TinnyStudios_AIUtility_Agent_System_String_TinnyStudios_AIUtility_EAgentLogType_
-  commentId: M:TinnyStudios.AIUtility.AgentLogger.Log(TinnyStudios.AIUtility.Agent,System.String,TinnyStudios.AIUtility.EAgentLogType)
-  fullName: TinnyStudios.AIUtility.AgentLogger.Log(TinnyStudios.AIUtility.Agent, System.String, TinnyStudios.AIUtility.EAgentLogType)
-  nameWithType: AgentLogger.Log(Agent, String, EAgentLogType)
+- uid: TinnyStudios.AIUtility.AgentLogger.Log(TinnyStudios.AIUtility.Agent,System.String,System.String,TinnyStudios.AIUtility.EAgentLogType)
+  name: Log(Agent, String, String, EAgentLogType)
+  href: api/TinnyStudios.AIUtility.AgentLogger.html#TinnyStudios_AIUtility_AgentLogger_Log_TinnyStudios_AIUtility_Agent_System_String_System_String_TinnyStudios_AIUtility_EAgentLogType_
+  commentId: M:TinnyStudios.AIUtility.AgentLogger.Log(TinnyStudios.AIUtility.Agent,System.String,System.String,TinnyStudios.AIUtility.EAgentLogType)
+  fullName: TinnyStudios.AIUtility.AgentLogger.Log(TinnyStudios.AIUtility.Agent, System.String, System.String, TinnyStudios.AIUtility.EAgentLogType)
+  nameWithType: AgentLogger.Log(Agent, String, String, EAgentLogType)
 - uid: TinnyStudios.AIUtility.AgentLogger.Log*
   name: Log
   href: api/TinnyStudios.AIUtility.AgentLogger.html#TinnyStudios_AIUtility_AgentLogger_Log_
@@ -865,6 +859,19 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction
   nameWithType: BuySwordAction
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  name: OnPerformByDurationCompleted(Agent)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_BuySwordAction_OnPerformByDurationCompleted_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  nameWithType: BuySwordAction.OnPerformByDurationCompleted(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.OnPerformByDurationCompleted*
+  name: OnPerformByDurationCompleted
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_BuySwordAction_OnPerformByDurationCompleted_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.OnPerformByDurationCompleted
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.OnPerformByDurationCompleted
+  nameWithType: BuySwordAction.OnPerformByDurationCompleted
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.Perform(TinnyStudios.AIUtility.Agent)
   name: Perform(Agent)
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_BuySwordAction_Perform_TinnyStudios_AIUtility_Agent_
@@ -903,6 +910,19 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction
   nameWithType: EatAction
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  name: OnPerformByDurationCompleted(Agent)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_EatAction_OnPerformByDurationCompleted_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  nameWithType: EatAction.OnPerformByDurationCompleted(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.OnPerformByDurationCompleted*
+  name: OnPerformByDurationCompleted
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_EatAction_OnPerformByDurationCompleted_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.OnPerformByDurationCompleted
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.OnPerformByDurationCompleted
+  nameWithType: EatAction.OnPerformByDurationCompleted
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.Perform(TinnyStudios.AIUtility.Agent)
   name: Perform(Agent)
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_EatAction_Perform_TinnyStudios_AIUtility_Agent_
@@ -1228,6 +1248,19 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction
   nameWithType: SleepAction
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  name: OnPerformByDurationCompleted(Agent)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SleepAction_OnPerformByDurationCompleted_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  nameWithType: SleepAction.OnPerformByDurationCompleted(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.OnPerformByDurationCompleted*
+  name: OnPerformByDurationCompleted
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SleepAction_OnPerformByDurationCompleted_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.OnPerformByDurationCompleted
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.OnPerformByDurationCompleted
+  nameWithType: SleepAction.OnPerformByDurationCompleted
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.Perform(TinnyStudios.AIUtility.Agent)
   name: Perform(Agent)
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SleepAction_Perform_TinnyStudios_AIUtility_Agent_
@@ -1376,6 +1409,19 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnMoveStarted
   nameWithType: SwordFightAction.OnMoveStarted
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  name: OnPerformByDurationCompleted(Agent)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SwordFightAction_OnPerformByDurationCompleted_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  nameWithType: SwordFightAction.OnPerformByDurationCompleted(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnPerformByDurationCompleted*
+  name: OnPerformByDurationCompleted
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SwordFightAction_OnPerformByDurationCompleted_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnPerformByDurationCompleted
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.OnPerformByDurationCompleted
+  nameWithType: SwordFightAction.OnPerformByDurationCompleted
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.Perform(TinnyStudios.AIUtility.Agent)
   name: Perform(Agent)
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SwordFightAction_Perform_TinnyStudios_AIUtility_Agent_
@@ -1465,6 +1511,19 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnMoveStarted
   nameWithType: WorkAction.OnMoveStarted
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  name: OnPerformByDurationCompleted(Agent)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_WorkAction_OnPerformByDurationCompleted_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  nameWithType: WorkAction.OnPerformByDurationCompleted(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnPerformByDurationCompleted*
+  name: OnPerformByDurationCompleted
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_WorkAction_OnPerformByDurationCompleted_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnPerformByDurationCompleted
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.OnPerformByDurationCompleted
+  nameWithType: WorkAction.OnPerformByDurationCompleted
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.Perform(TinnyStudios.AIUtility.Agent)
   name: Perform(Agent)
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_WorkAction_Perform_TinnyStudios_AIUtility_Agent_
@@ -2518,6 +2577,19 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.UtilityAction.OnMoveStarted
   nameWithType: UtilityAction.OnMoveStarted
+- uid: TinnyStudios.AIUtility.UtilityAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  name: OnPerformByDurationCompleted(Agent)
+  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_OnPerformByDurationCompleted_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.UtilityAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.UtilityAction.OnPerformByDurationCompleted(TinnyStudios.AIUtility.Agent)
+  nameWithType: UtilityAction.OnPerformByDurationCompleted(Agent)
+- uid: TinnyStudios.AIUtility.UtilityAction.OnPerformByDurationCompleted*
+  name: OnPerformByDurationCompleted
+  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_OnPerformByDurationCompleted_
+  commentId: Overload:TinnyStudios.AIUtility.UtilityAction.OnPerformByDurationCompleted
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.UtilityAction.OnPerformByDurationCompleted
+  nameWithType: UtilityAction.OnPerformByDurationCompleted
 - uid: TinnyStudios.AIUtility.UtilityAction.OnReachedDestination
   name: OnReachedDestination()
   href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_OnReachedDestination
@@ -2544,12 +2616,12 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.UtilityAction.Perform
   nameWithType: UtilityAction.Perform
-- uid: TinnyStudios.AIUtility.UtilityAction.PerformByDuration(System.Action)
-  name: PerformByDuration(Action)
-  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_PerformByDuration_System_Action_
-  commentId: M:TinnyStudios.AIUtility.UtilityAction.PerformByDuration(System.Action)
-  fullName: TinnyStudios.AIUtility.UtilityAction.PerformByDuration(System.Action)
-  nameWithType: UtilityAction.PerformByDuration(Action)
+- uid: TinnyStudios.AIUtility.UtilityAction.PerformByDuration(TinnyStudios.AIUtility.Agent)
+  name: PerformByDuration(Agent)
+  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_PerformByDuration_TinnyStudios_AIUtility_Agent_
+  commentId: M:TinnyStudios.AIUtility.UtilityAction.PerformByDuration(TinnyStudios.AIUtility.Agent)
+  fullName: TinnyStudios.AIUtility.UtilityAction.PerformByDuration(TinnyStudios.AIUtility.Agent)
+  nameWithType: UtilityAction.PerformByDuration(Agent)
 - uid: TinnyStudios.AIUtility.UtilityAction.PerformByDuration*
   name: PerformByDuration
   href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_PerformByDuration_
@@ -2812,6 +2884,19 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.UtilityPlanner.GetBestAction
   nameWithType: UtilityPlanner.GetBestAction
+- uid: TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore(TinnyStudios.AIUtility.IUtilityAction,System.Single)
+  name: GetRescaleScore(IUtilityAction, Single)
+  href: api/TinnyStudios.AIUtility.UtilityPlanner.html#TinnyStudios_AIUtility_UtilityPlanner_GetRescaleScore_TinnyStudios_AIUtility_IUtilityAction_System_Single_
+  commentId: M:TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore(TinnyStudios.AIUtility.IUtilityAction,System.Single)
+  fullName: TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore(TinnyStudios.AIUtility.IUtilityAction, System.Single)
+  nameWithType: UtilityPlanner.GetRescaleScore(IUtilityAction, Single)
+- uid: TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore*
+  name: GetRescaleScore
+  href: api/TinnyStudios.AIUtility.UtilityPlanner.html#TinnyStudios_AIUtility_UtilityPlanner_GetRescaleScore_
+  commentId: Overload:TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore
+  nameWithType: UtilityPlanner.GetRescaleScore
 - uid: TinnyStudios.AIUtility.UtilityPlanner.IdleDuration
   name: IdleDuration
   href: api/TinnyStudios.AIUtility.UtilityPlanner.html#TinnyStudios_AIUtility_UtilityPlanner_IdleDuration

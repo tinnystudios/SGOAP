@@ -83,7 +83,7 @@
   
   <h1 id="TinnyStudios_AIUtility_UtilityPlanner" data-uid="TinnyStudios.AIUtility.UtilityPlanner" class="text-break">Class UtilityPlanner
   </h1>
-  <div class="markdown level0 summary"><p>Score Evaluator</p>
+  <div class="markdown level0 summary"><p>Finds the best action based on a list of considerations from <a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -345,11 +345,12 @@
   
   <a id="TinnyStudios_AIUtility_UtilityPlanner_GetActionScore_" data-uid="TinnyStudios.AIUtility.UtilityPlanner.GetActionScore*"></a>
   <h4 id="TinnyStudios_AIUtility_UtilityPlanner_GetActionScore_TinnyStudios_AIUtility_IUtilityAction_TinnyStudios_AIUtility_Agent_" data-uid="TinnyStudios.AIUtility.UtilityPlanner.GetActionScore(TinnyStudios.AIUtility.IUtilityAction,TinnyStudios.AIUtility.Agent)">GetActionScore(IUtilityAction, Agent)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Scores an individual action.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GetActionScore(IUtilityAction action, Agent agent)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual float GetActionScore(IUtilityAction action, Agent agent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -392,11 +393,12 @@
   
   <a id="TinnyStudios_AIUtility_UtilityPlanner_GetBestAction_" data-uid="TinnyStudios.AIUtility.UtilityPlanner.GetBestAction*"></a>
   <h4 id="TinnyStudios_AIUtility_UtilityPlanner_GetBestAction_TinnyStudios_AIUtility_Agent_" data-uid="TinnyStudios.AIUtility.UtilityPlanner.GetBestAction(TinnyStudios.AIUtility.Agent)">GetBestAction(Agent)</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Returns the best action from agent.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IUtilityAction GetBestAction(Agent agent)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual IUtilityAction GetBestAction(Agent agent)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -426,6 +428,54 @@
     <tbody>
       <tr>
         <td><a class="xref" href="TinnyStudios.AIUtility.IUtilityAction.html">IUtilityAction</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_UtilityPlanner_GetRescaleScore_" data-uid="TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore*"></a>
+  <h4 id="TinnyStudios_AIUtility_UtilityPlanner_GetRescaleScore_TinnyStudios_AIUtility_IUtilityAction_System_Single_" data-uid="TinnyStudios.AIUtility.UtilityPlanner.GetRescaleScore(TinnyStudios.AIUtility.IUtilityAction,System.Single)">GetRescaleScore(IUtilityAction, Single)</h4>
+  <div class="markdown level1 summary"><p>Get rescale score using Dave's Averaging Scheme.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual float GetRescaleScore(IUtilityAction action, float score)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.IUtilityAction.html">IUtilityAction</a></td>
+        <td><span class="parametername">action</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">score</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>

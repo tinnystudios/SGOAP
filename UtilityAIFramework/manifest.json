@@ -53,7 +53,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.ActionMoveData.html",
-          "hash": "g+ikNZaiQvNriKVzxwIURMKfHSFR/aVMvdTYVOd3e/w="
+          "hash": "l47pzHpF0l6AP0tXCduEHucLNx03UdZWdm29jIvjKI8="
         }
       },
       "is_incremental": false,
@@ -65,7 +65,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.ActionPerformData.html",
-          "hash": "Vs0HkdWQg6p7xy68vrgQpzLxzNHHnAZd9ZIMnz69T1k="
+          "hash": "aBypBtB+K7mHY+IL/FonfaET+4E2HcSH3RK8uTW6gno="
         }
       },
       "is_incremental": false,
@@ -77,7 +77,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Agent.AgentEvents.html",
-          "hash": "sDypn3LAHFeXrD/ND++a0VO5Qx4cBh5wRkbReu0Qh+M="
+          "hash": "LiNFDie+ZbPF3MmVX2SxGKVVxNQBG3q2F5FWcHZ2A4E="
         }
       },
       "is_incremental": false,
@@ -89,7 +89,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Agent.html",
-          "hash": "/XL3MXeZsRh4v62W2QU6vSsaQNP/xGmM3rM5RkuPdUc="
+          "hash": "Lb4gLnnAjQYkVikjqfC870frunQubaxnllPRZ+DBALs="
         }
       },
       "is_incremental": false,
@@ -101,7 +101,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.AgentLogger.html",
-          "hash": "NKLw8Me5+S6NUx/ZHYOMLO6JaWg1UmTDwmqCJpWeRw4="
+          "hash": "ki2mj/ktTRwpkGS34YZxip+t64AIA8gnnZFVDB/LTMo="
         }
       },
       "is_incremental": false,
@@ -257,7 +257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html",
-          "hash": "MDQUXVOasovVZNkRHHsUcIa8uyv/5iDFrfka9NJKD4s="
+          "hash": "4ZyFQFo49P+3kT+yx4YoPsXqOeb0tqVrR2HVcEsPxBE="
         }
       },
       "is_incremental": false,
@@ -281,7 +281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html",
-          "hash": "prpPCLneSGZa+tQrTrM88wcgHsxP/aDpYGgloKKnrwo="
+          "hash": "CEvBOIb+qECN+QqBViRdJzs/XAdijXKyQuFrvE3QN6g="
         }
       },
       "is_incremental": false,
@@ -317,7 +317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.GiveSwordAction.html",
-          "hash": "esLkIuZ0X5wM75oi5Hnxl4pI4FXrF2Cuu7u6KMHqNjo="
+          "hash": "3rETv+JmlKtKqvtS3Btq9APWYuafa+YTTA4iChm31B4="
         }
       },
       "is_incremental": false,
@@ -425,7 +425,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html",
-          "hash": "OAbyIx7n6VI3vOnkh97gKu4f2ps02EBTJoi9ZaYI060="
+          "hash": "tPwMzqCnte6+NyyTbZG1WYhvde8pwwmraVtEvRYRzQ8="
         }
       },
       "is_incremental": false,
@@ -473,7 +473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html",
-          "hash": "/UDh1MrvE278HLD1cwoia98JDhYKxiorY9VDJCPZcRo="
+          "hash": "wjL58U4CmZqduzRTBSGNOL8jfJk3OguuFIAaYoHWufc="
         }
       },
       "is_incremental": false,
@@ -509,7 +509,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html",
-          "hash": "1DMl2aj0cuO/pV/KLqqEwoiu1xaydwCqREujOKDG/6E="
+          "hash": "jwS938XEl2pywdk2YQAWgR9z+9rrO7SIxVE3NO90M7o="
         }
       },
       "is_incremental": false,
@@ -557,7 +557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackAction.html",
-          "hash": "+vi9e8lO4dzmEq16JRqG4C0PrNoFedEXMezVKBTirgM="
+          "hash": "RSsrXZyKTYhtOnGNCfvwFNgd8887fOozXWDHwNQ3KKM="
         }
       },
       "is_incremental": false,
@@ -713,7 +713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.UtilityAction.html",
-          "hash": "cWzDha3LAWoY6eIhupPvu2wBV7JTfNpy1Mg+vrn1UwE="
+          "hash": "5QoB7pouGNiKxdGtgPh8Wkkmu9hGitnfZeV5/e4zMOM="
         }
       },
       "is_incremental": false,
@@ -725,7 +725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.UtilityPlanner.html",
-          "hash": "IrtXmpf75HfRrzwiY4pLZJH5uK9V2xpNnSq0H7hpSKg="
+          "hash": "E1qgQ2+UjFQXiS4wwLh2lNtWsYa1Gb23q5kyPPewLE4="
         }
       },
       "is_incremental": false,
@@ -737,7 +737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.html",
-          "hash": "udDz5OZBqm6g/wGnTn8qdZ8XIsG6lf998zjdQF5hdc0="
+          "hash": "2mTMaZZohmvRuHhvCP//luWIhB0LQwxC6wxjou1MFPM="
         }
       },
       "is_incremental": false,
@@ -774,25 +774,23 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because config changed.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "ConfigChanged"
+        "skipped_file_count": 0
       },
       "processors": {
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
         },
         "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 66,
-          "skipped_file_count": 0
+          "skipped_file_count": 23
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

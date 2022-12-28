@@ -83,7 +83,8 @@
   
   <h1 id="TinnyStudios_AIUtility_ActionMoveData" data-uid="TinnyStudios.AIUtility.ActionMoveData" class="text-break">Class ActionMoveData
   </h1>
-  <div class="markdown level0 summary"><p>The base data used by <a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a> to set destination and properties.</p>
+  <div class="markdown level0 summary"><p>The base data used by <a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a> to set destination and properties.
+This isn't a scriptable object because DestinationTransform would not be able to reference a scene object.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -126,54 +127,6 @@ public class ActionMoveData</code></pre>
   </h3>
   
   
-  <h4 id="TinnyStudios_AIUtility_ActionMoveData_Acceleration" data-uid="TinnyStudios.AIUtility.ActionMoveData.Acceleration">Acceleration</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Acceleration</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="TinnyStudios_AIUtility_ActionMoveData_AngularSpeed" data-uid="TinnyStudios.AIUtility.ActionMoveData.AngularSpeed">AngularSpeed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float AngularSpeed</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <h4 id="TinnyStudios_AIUtility_ActionMoveData_DestinationTransform" data-uid="TinnyStudios.AIUtility.ActionMoveData.DestinationTransform">DestinationTransform</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -198,6 +151,30 @@ public class ActionMoveData</code></pre>
   </table>
   
   
+  <h4 id="TinnyStudios_AIUtility_ActionMoveData_Properties" data-uid="TinnyStudios.AIUtility.ActionMoveData.Properties">Properties</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ActionMoveProperties Properties</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ActionMoveProperties</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="TinnyStudios_AIUtility_ActionMoveData_Required" data-uid="TinnyStudios.AIUtility.ActionMoveData.Required">Required</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -216,54 +193,6 @@ public class ActionMoveData</code></pre>
     <tbody>
       <tr>
         <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="TinnyStudios_AIUtility_ActionMoveData_Speed" data-uid="TinnyStudios.AIUtility.ActionMoveData.Speed">Speed</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float Speed</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="TinnyStudios_AIUtility_ActionMoveData_StopDistance" data-uid="TinnyStudios.AIUtility.ActionMoveData.StopDistance">StopDistance</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float StopDistance</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>
