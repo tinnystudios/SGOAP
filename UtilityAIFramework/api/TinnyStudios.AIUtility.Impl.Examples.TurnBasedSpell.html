@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell
+   | Utility AI Framework </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell
+   | Utility AI Framework ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell">
+  
+  <h1 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell" class="text-break">Namespace TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html">ElementTrait</a></h4>
+      <section><p>Determines the pros and cons of an element.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.RuntimeSpellAttackData.html">RuntimeSpellAttackData</a></h4>
+      <section><p>The runtime data of the spell attack. This is mutable, meaning its max value can be changed.
+This pattern just save us from having to clone SpellAttackData scriptable object.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackAction.html">SpellAttackAction</a></h4>
+      <section><p>The action that choose a spell from <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackAction.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellAttackAction_RuntimeData">RuntimeData</a>
+Each move will increase the Used Count.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackData.html">SpellAttackData</a></h4>
+      <section><p>A scriptable object containing the element type of the attack.
+Just an example, no strength or abilities included.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html">SpellElementConsideration</a></h4>
+      <section><p>Considers the effectiveness of the attack and receiver's element.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html">SpellQuantityConsideration</a></h4>
+      <section><p>Considers if a spell has any uses left.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseCharacter.html">TurnBaseCharacter</a></h4>
+      <section><p>A character in the turn base example. This is used to tag a character's element type.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBasedGameManager.html">TurnBasedGameManager</a></h4>
+      <section><p>An example game manager for a turn base agent.
+This is not production code so please use it just as an example on a starting point on understanding how to execute and set up a turn based Agent.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseSpellGameContext.html">TurnBaseSpellGameContext</a></h4>
+      <section><p>The Game Context data for each agent in the game.
+Here GameManager is manually injected by Unity's interface. You could have your game manager pass all the dependencies down instead.
+Up to you.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

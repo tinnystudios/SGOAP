@@ -1,0 +1,199 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace TinnyStudios.AIUtility.Impl.Examples.FarmerHero
+   | Utility AI Framework </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace TinnyStudios.AIUtility.Impl.Examples.FarmerHero
+   | Utility AI Framework ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero">
+  
+  <h1 id="TinnyStudios_AIUtility_Impl_Examples_FarmerHero" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero" class="text-break">Namespace TinnyStudios.AIUtility.Impl.Examples.FarmerHero
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.AddActionExample.html">AddActionExample</a></h4>
+      <section><p>This class just shows an example of how you can add actions at runtime.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html">BuySwordAction</a></h4>
+      <section><p>Buys the sword. In this case, sets Inventory.HasWeapon to true.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html">BuySwordConsideration</a></h4>
+      <section><p>Consider if there is a monster then you would want to buy a sword.
+This is a very concrete implementation, you could reuse <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html">HasMonsterConsideration</a></p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html">EatAction</a></h4>
+      <section><p>Sets hunger to 0 when performed.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EntityBase.html">EntityBase</a></h4>
+      <section><p>The base class for all entities / living things.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ExampleDataContext.html">ExampleDataContext</a></h4>
+      <section><p>An example implementation of <a class="xref" href="TinnyStudios.AIUtility.IAgentDataContext.html">IAgentDataContext</a> concretely defining the game data for the farmer hero.
+This is accessed by all actions and consideration.
+You do not need to do it this way if your game has a different way of injecting dependencies.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.GiveSwordAction.html">GiveSwordAction</a></h4>
+      <section><p>This action gives a sword to another agent.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html">HasMonsterConsideration</a></h4>
+      <section><p>Considers if there are any monsters around.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html">HasWeaponConsideration</a></h4>
+      <section><p>Considers if the agent has a weapon already or not.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html">HasWorkConsideration</a></h4>
+      <section><p>Consider if there are any trees remaining.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html">HungerConsideration</a></h4>
+      <section><p>Consider if you a hungry.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory.html">Inventory</a></h4>
+      <section><p>A very simple implementation of an inventory for the example.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html">MoneyConsideration</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Monster.html">Monster</a></h4>
+      <section><p>Unlike a TreeObject, Monster wants to be an entity base as well so here we use the IManagerObject interface instead.
+This will need to handle the binding process by itself which is just about keeping track of the monster manager..</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.html">MonsterManager</a></h4>
+      <section><p>In this example, the monster manager instantiate 1 every 10s</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html">SleepAction</a></h4>
+      <section><p>When performed, sets Sleepiness to 0.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html">SleepinessConsideration</a></h4>
+      <section><p>Considers how sleepy an agent is.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Stats.html">Stats</a></h4>
+      <section><p>The stats used in the farmer hero example.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.StatWatcher.html">StatWatcher</a></h4>
+      <section><p>Configures a stat over time. This is used for increasing Hunger and Sleepiness.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html">SwordFightAction</a></h4>
+      <section><p>Attacks and Destroy a monster immediately when performed.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObject.html">TreeObject</a></h4>
+      <section><p>A component to be attached to an object to define it as a tree.
+Place the game object under a parent with <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObjectManager.html">TreeObjectManager</a> and it'll be added to the manager.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObjectManager.html">TreeObjectManager</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html">WorkAction</a></h4>
+      <section><p>When performed, cuts a tree.
+Earns Money and Wood immediately.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

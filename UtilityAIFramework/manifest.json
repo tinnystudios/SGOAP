@@ -1,0 +1,830 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Work/Tools/Documentation/Sample",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "README.md",
+      "output": {
+        ".html": {
+          "relative_path": "README.html",
+          "hash": "YJNYZOtscs6+FYCGbCw/H3GbEI5VUfit7AB+rDOwopc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/images/seed.jpg",
+      "output": {
+        "resource": {
+          "relative_path": "articles/images/seed.jpg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "4AkyYDBeumoT985+E0YzPVzZCOpQsZMYsmwc0xcINdM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.ActionMoveData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.ActionMoveData.html",
+          "hash": "g+ikNZaiQvNriKVzxwIURMKfHSFR/aVMvdTYVOd3e/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.ActionPerformData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.ActionPerformData.html",
+          "hash": "Vs0HkdWQg6p7xy68vrgQpzLxzNHHnAZd9ZIMnz69T1k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Agent.AgentEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Agent.AgentEvents.html",
+          "hash": "sDypn3LAHFeXrD/ND++a0VO5Qx4cBh5wRkbReu0Qh+M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Agent.html",
+          "hash": "/XL3MXeZsRh4v62W2QU6vSsaQNP/xGmM3rM5RkuPdUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.AgentLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.AgentLogger.html",
+          "hash": "NKLw8Me5+S6NUx/ZHYOMLO6JaWg1UmTDwmqCJpWeRw4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Consideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Consideration.html",
+          "hash": "sB9PygXCaVvztUhPLGxKdvGGCAG5Z8kcFqUEVDZKnds="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.EActionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.EActionStatus.html",
+          "hash": "EPv3KRbUaRjWUiTyL/oW/6AjMSVkvcQhN0A3vS8I8wk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.EAgentLogType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.EAgentLogType.html",
+          "hash": "THPL/7b7Faz8O+YCYJlzV63TtlpsuWRf8vwDamRzEAI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.EAgentState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.EAgentState.html",
+          "hash": "36jiHzEIddieFAYBE6P2ZXalfsyp4u/S3yWgNXNrrJ8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.EUpdateType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.EUpdateType.html",
+          "hash": "p/XfwMJJ5dVsXogZZY2xYZouqrLhMZE7YV1I7bqPVqQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Editor.AgentDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Editor.AgentDrawer.html",
+          "hash": "YkU4McHAAx4pR6lk7SkCYn3vSoYASrlcGJAMkLzxPpI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Editor.ConsiderationDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Editor.ConsiderationDrawer.html",
+          "hash": "F+lOsphL5yQVqyvz9L5yyytI5kkh7MxpfZvwF4/ljuA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Editor.StringExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Editor.StringExtensions.html",
+          "hash": "vQ3fJr9vi8mJhn5HyA9Z30roc43hMlIt9f4IZ+gGdWA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Editor.html",
+          "hash": "R6Fg4+q0Ic8uPClYtbryyZYMKTBFYdO+02G43VNSbQE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.IAgentDataContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.IAgentDataContext.html",
+          "hash": "LlBrKMtQZGY6LOlNub/SC6KgO+eCimA0jIhax+nEODw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.IUtilityAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.IUtilityAction.html",
+          "hash": "k0KNc7xxO0EscOR1U9Gc3S7nXOKyNss3drw+LO0Ktok="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.AddActionExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.AddActionExample.html",
+          "hash": "jPZMr6HJuPR2SWBiP6mfWwgIFfkiEoeNg1kYaEplhO0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html",
+          "hash": "MDQUXVOasovVZNkRHHsUcIa8uyv/5iDFrfka9NJKD4s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html",
+          "hash": "zph8cZzhfo73epi7+G5x4avDcJA9rb6i8cYvo2kBgqA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html",
+          "hash": "prpPCLneSGZa+tQrTrM88wcgHsxP/aDpYGgloKKnrwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EntityBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EntityBase.html",
+          "hash": "Y/cL2LAa9C1V8d5up1Oq8Dzzs+aiOj0qgeExwIztnzg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ExampleDataContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ExampleDataContext.html",
+          "hash": "6FmP6NIRW59xLNGl36JtbCjSUSmtrrC7vkQOTGQSEYs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.GiveSwordAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.GiveSwordAction.html",
+          "hash": "esLkIuZ0X5wM75oi5Hnxl4pI4FXrF2Cuu7u6KMHqNjo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html",
+          "hash": "OyPRoltP7xRVDARKUu9fb3VMuHMyLDv5o19oKH6Lcm0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html",
+          "hash": "FcdJWasQJlSRlLyWP0pumdcjhBKu71Vj/VN1BoE0Rmw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html",
+          "hash": "qyVNOJvfo4CvNOYD52y+/fGoZLJy3cJm9WCgSoUrM4U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html",
+          "hash": "jbd37CdRCPtlbC1LG/WdusnWq6Md4UvKN7CSjA925gc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory.html",
+          "hash": "6S2bJW8NNG/BqPtNGBZnhlNsLhXzVcHjErKRFOu7yec="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html",
+          "hash": "HeHSh6CG8qAaVMoBPK2ScU2lb+HEOu4PqG3DZmjU3S8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Monster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Monster.html",
+          "hash": "L14XvVxCcdZ//qwA70i6410Kb0Eqqs4KFLW8/CPCaZ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.html",
+          "hash": "/erzTbnFlAwb0RuzsDLEgM3bA4v7/3r5mHt9xdfga88="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html",
+          "hash": "OAbyIx7n6VI3vOnkh97gKu4f2ps02EBTJoi9ZaYI060="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html",
+          "hash": "KR45V7/Ud170TvDeCNTZOd86RyT1BiFfWcm4lrRRITo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.StatWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.StatWatcher.html",
+          "hash": "Yi6TJmVRzrFHCu6IMs1dYyTT84csxSjUsQFpZgX50ac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Stats.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Stats.html",
+          "hash": "R21SXdRm3a6g2KMTDeyB3IXLn2lw/fdJYfZwMDwu7LE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html",
+          "hash": "/UDh1MrvE278HLD1cwoia98JDhYKxiorY9VDJCPZcRo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObject.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObject.html",
+          "hash": "ft+XS2YBII7Y79onrgd0ClFko1ZRiAZtEODhbx4c1qQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObjectManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObjectManager.html",
+          "hash": "b7K329JCvyTdAWUGzajhqF/c245CAIYRv0IP+P4/yi4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html",
+          "hash": "1DMl2aj0cuO/pV/KLqqEwoiu1xaydwCqREujOKDG/6E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.html",
+          "hash": "AgPRV1RvVCe7JXnKEnnjjen6TeyMCng7++WxJXItv3Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html",
+          "hash": "96HXzF8q13i3+4XPFRQCjARBLx30oaBVflROB1oGgYM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.RuntimeSpellAttackData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.RuntimeSpellAttackData.html",
+          "hash": "UylIo5UENiUVOWe9yUqRfgTjHkophViKhTGLinDP9MY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackAction.html",
+          "hash": "+vi9e8lO4dzmEq16JRqG4C0PrNoFedEXMezVKBTirgM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackData.html",
+          "hash": "/AwkqaEks1AYGiby+dxTLhqw+y7f7f0AIaqBJwj0wNY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html",
+          "hash": "F4ysufUH2VUeFCCffJxgGVfW7Z2q5NmdQMTl2Ke/rMY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html",
+          "hash": "/Ew8LA8h5BLIiB4zx0X9akubImZRyCtkMklTvBAnBdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseCharacter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseCharacter.html",
+          "hash": "EhcECmjO9aJbCV7PbKa4d1Fml4LrTzC9vjLAYpa930Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseSpellGameContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseSpellGameContext.html",
+          "hash": "VZWjMw3O8jV3ZiGdggjyFNPMzv7J+xiAZ6RlAp2sEBw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBasedGameManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBasedGameManager.html",
+          "hash": "4IkzNAZsmXxbQdMOdLTXwfVXhi74bHqt5RWuBVEConc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.html",
+          "hash": "zONpDy81JF9895cTHEB9QijT1Pt/Gr/aBlba/t/+t/w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.MoveSystemBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.MoveSystemBase.html",
+          "hash": "StWMBK6THZiiZ70yYC4oEsn/gz2u8LhMuMAST9pQ9Cg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.MoveSystemNavMeshExample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.MoveSystemNavMeshExample.html",
+          "hash": "FQWhuE/CUDMxVNNKBBlLjK/Tlr79SWCAthimSGtqLfc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.StopwatchWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.StopwatchWatcher.html",
+          "hash": "I9nj4Pnxlf0i6nykqfBI/BWQ5QSTz8Sbcw1WpqlgkzI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.TimeWatcher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.TimeWatcher.html",
+          "hash": "V3g9o/VJQtVd8VC1fEJ84my3vbTYkmZ9adrS0zv6Cxo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.UtilityAction.ActionEvents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.UtilityAction.ActionEvents.html",
+          "hash": "oqizf5SX53t3/SUTBMyG5pAmeOsdQ2fhr689DL7Pj28="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.UtilityAction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.UtilityAction.html",
+          "hash": "cWzDha3LAWoY6eIhupPvu2wBV7JTfNpy1Mg+vrn1UwE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.UtilityPlanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.UtilityPlanner.html",
+          "hash": "IrtXmpf75HfRrzwiY4pLZJH5uK9V2xpNnSq0H7hpSKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.html",
+          "hash": "udDz5OZBqm6g/wGnTn8qdZ8XIsG6lf998zjdQF5hdc0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "T/0otWPkgMz8NxcHx9CmHWqn9tc+/f4IQk7beelf+kY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "MSjQB4xXw8biSWbE+q7wqXfH0d4MPGaSQR/fIiH3bsE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 2,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 66,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

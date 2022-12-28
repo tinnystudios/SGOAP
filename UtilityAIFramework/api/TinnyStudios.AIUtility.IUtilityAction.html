@@ -1,0 +1,652 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interface IUtilityAction
+   | Utility AI Framework </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interface IUtilityAction
+   | Utility AI Framework ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.IUtilityAction">
+  
+  
+  <h1 id="TinnyStudios_AIUtility_IUtilityAction" data-uid="TinnyStudios.AIUtility.IUtilityAction" class="text-break">Interface IUtilityAction
+  </h1>
+  <div class="markdown level0 summary"><p>The base implementation for Utility Action to be used by the planner.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.html">TinnyStudios.AIUtility</a></h6>
+  <h6><strong>Assembly</strong>: UtilityAIFramework.dll</h6>
+  <h5 id="TinnyStudios_AIUtility_IUtilityAction_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public interface IUtilityAction</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Considerations_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Considerations*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Considerations" data-uid="TinnyStudios.AIUtility.IUtilityAction.Considerations">Considerations</h4>
+  <div class="markdown level1 summary"><p>The list of considerations. Think of a consideration as a question of how much you want to do something.
+i.e a consideration for EatAction is how hungry are you? If you are very hungry, it will return 1.
+The list of consideration total score average is the Action's Score.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">List&lt;Consideration&gt; Considerations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="TinnyStudios.AIUtility.Consideration.html">Consideration</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Events_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Events*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Events" data-uid="TinnyStudios.AIUtility.IUtilityAction.Events">Events</h4>
+  <div class="markdown level1 summary"><p>A list of unity events for ease of use.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">UtilityAction.ActionEvents Events { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.UtilityAction.ActionEvents.html">UtilityAction.ActionEvents</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_FoldOutEnabled_" data-uid="TinnyStudios.AIUtility.IUtilityAction.FoldOutEnabled*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_FoldOutEnabled" data-uid="TinnyStudios.AIUtility.IUtilityAction.FoldOutEnabled">FoldOutEnabled</h4>
+  <div class="markdown level1 summary"><p>To show more info, only used for editor purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool FoldOutEnabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Initialized_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Initialized*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Initialized" data-uid="TinnyStudios.AIUtility.IUtilityAction.Initialized">Initialized</h4>
+  <div class="markdown level1 summary"><p>Set up has been completed so we won't do it a second time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool Initialized { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_MoveData_" data-uid="TinnyStudios.AIUtility.IUtilityAction.MoveData*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_MoveData" data-uid="TinnyStudios.AIUtility.IUtilityAction.MoveData">MoveData</h4>
+  <div class="markdown level1 summary"><p>The Action Move Data stores useful data to pass to the Move System.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">ActionMoveData MoveData { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.ActionMoveData.html">ActionMoveData</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Name_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Name*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Name" data-uid="TinnyStudios.AIUtility.IUtilityAction.Name">Name</h4>
+  <div class="markdown level1 summary"><p>The name of the action, mostly used for debugging purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Score_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Score*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Score" data-uid="TinnyStudios.AIUtility.IUtilityAction.Score">Score</h4>
+  <div class="markdown level1 summary"><p>The last evaluated Score of the Action. The higher score will get chosen by the Planner.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float Score { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_State_" data-uid="TinnyStudios.AIUtility.IUtilityAction.State*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_State" data-uid="TinnyStudios.AIUtility.IUtilityAction.State">State</h4>
+  <div class="markdown level1 summary"><p>The last known state of the action. Useful for debugging purposes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EActionStatus State { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.EActionStatus.html">EActionStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_TimeWatch_" data-uid="TinnyStudios.AIUtility.IUtilityAction.TimeWatch*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_TimeWatch" data-uid="TinnyStudios.AIUtility.IUtilityAction.TimeWatch">TimeWatch</h4>
+  <div class="markdown level1 summary"><p>Stores the time elapsed of the performing action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">TimeWatcher TimeWatch { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.TimeWatcher.html">TimeWatcher</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Weight_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Weight*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Weight" data-uid="TinnyStudios.AIUtility.IUtilityAction.Weight">Weight</h4>
+  <div class="markdown level1 summary"><p>The action score is multiplied by the weight. This determines its max score output and can be use for classifying priorities.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">float Weight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_IsAvailable_" data-uid="TinnyStudios.AIUtility.IUtilityAction.IsAvailable*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_IsAvailable" data-uid="TinnyStudios.AIUtility.IUtilityAction.IsAvailable">IsAvailable()</h4>
+  <div class="markdown level1 summary"><p>This is checked before the action is scored. This is useful for simply telling an action to not occur via code.
+It's basically a coded approach to considerations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">bool IsAvailable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_OnConsiderationCheck_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnConsiderationCheck*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_OnConsiderationCheck_TinnyStudios_AIUtility_Consideration_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnConsiderationCheck(TinnyStudios.AIUtility.Consideration)">OnConsiderationCheck(Consideration)</h4>
+  <div class="markdown level1 summary"><p>This is called just before a consideration is checked. This gives time for us to bind any neccessary data.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnConsiderationCheck(Consideration consideration)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Consideration.html">Consideration</a></td>
+        <td><span class="parametername">consideration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_OnMove_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnMove*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_OnMove_TinnyStudios_AIUtility_MoveSystemBase_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnMove(TinnyStudios.AIUtility.MoveSystemBase)">OnMove(MoveSystemBase)</h4>
+  <div class="markdown level1 summary"><p>Called Once Per Frame.
+Assign destination to Destination Transform by default.
+Override this method to change the target destination, i.e a location without a transform.
+You can use this to override Move System or simply modify its speed.
+Transform is kept default for convenience sake</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMove(MoveSystemBase moveSystem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a></td>
+        <td><span class="parametername">moveSystem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_OnMoveStarted_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnMoveStarted*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_OnMoveStarted_TinnyStudios_AIUtility_MoveSystemBase_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnMoveStarted(TinnyStudios.AIUtility.MoveSystemBase)">OnMoveStarted(MoveSystemBase)</h4>
+  <div class="markdown level1 summary"><p>Is called when the Agent just started moving to its target to perform the action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnMoveStarted(MoveSystemBase moveSystem)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a></td>
+        <td><span class="parametername">moveSystem</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_OnReachedDestination_" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnReachedDestination*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_OnReachedDestination" data-uid="TinnyStudios.AIUtility.IUtilityAction.OnReachedDestination">OnReachedDestination()</h4>
+  <div class="markdown level1 summary"><p>Is called when the Agent reached the destination. This is not called if MoveData Required field is not enabled.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void OnReachedDestination()</code></pre>
+  </div>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Perform_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Perform*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Perform_TinnyStudios_AIUtility_Agent_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Perform(TinnyStudios.AIUtility.Agent)">Perform(Agent)</h4>
+  <div class="markdown level1 summary"><p>Is called when the action can be executed. i.e within range.
+Returning EActionStatus.Completed will end the action and the agent will find a new plan.
+Returning EActionStatus.Running will continue.
+Returning EActionStatus.Failed will allow to Agent to know to Abort the action.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">EActionStatus Perform(Agent agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a></td>
+        <td><span class="parametername">agent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.EActionStatus.html">EActionStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_SetScore_" data-uid="TinnyStudios.AIUtility.IUtilityAction.SetScore*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_SetScore_System_Single_" data-uid="TinnyStudios.AIUtility.IUtilityAction.SetScore(System.Single)">SetScore(Single)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetScore(float getRescaleScore)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><span class="parametername">getRescaleScore</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_SetState_" data-uid="TinnyStudios.AIUtility.IUtilityAction.SetState*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_SetState_TinnyStudios_AIUtility_EActionStatus_" data-uid="TinnyStudios.AIUtility.IUtilityAction.SetState(TinnyStudios.AIUtility.EActionStatus)">SetState(EActionStatus)</h4>
+  <div class="markdown level1 summary"><p>Sets the ActionStatus of the Agent. This does not transition and is used more for tracking.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void SetState(EActionStatus state)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.EActionStatus.html">EActionStatus</a></td>
+        <td><span class="parametername">state</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_IUtilityAction_Setup_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Setup*"></a>
+  <h4 id="TinnyStudios_AIUtility_IUtilityAction_Setup_TinnyStudios_AIUtility_Agent_" data-uid="TinnyStudios.AIUtility.IUtilityAction.Setup(TinnyStudios.AIUtility.Agent)">Setup(Agent)</h4>
+  <div class="markdown level1 summary"><p>Sets up the action, useful for any initialization.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Setup(Agent agent)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a></td>
+        <td><span class="parametername">agent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

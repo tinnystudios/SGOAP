@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Namespace TinnyStudios.AIUtility
+   | Utility AI Framework </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Namespace TinnyStudios.AIUtility
+   | Utility AI Framework ">
+    <meta name="generator" content="docfx 2.59.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility">
+  
+  <h1 id="TinnyStudios_AIUtility" data-uid="TinnyStudios.AIUtility" class="text-break">Namespace TinnyStudios.AIUtility
+  </h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="markdown level0 remarks"></div>
+    <h3 id="classes">Classes
+  </h3>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.ActionMoveData.html">ActionMoveData</a></h4>
+      <section><p>The base data used by <a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a> to set destination and properties.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.ActionPerformData.html">ActionPerformData</a></h4>
+      <section><p>The performing data for <a class="xref" href="TinnyStudios.AIUtility.UtilityAction.html">UtilityAction</a>.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a></h4>
+      <section><p>The brain of the Utility AI. It controls the  states and uses the <a class="xref" href="TinnyStudios.AIUtility.Agent.html#TinnyStudios_AIUtility_Agent_UtilityPlanner">UtilityPlanner</a> to find the best action.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Agent.AgentEvents.html">Agent.AgentEvents</a></h4>
+      <section><p>A set of Unity Events of all agent's changes. Useful for quickly prototyping.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.AgentLogger.html">AgentLogger</a></h4>
+      <section><p>A static logger extension to help filter out what logs to show or hide.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.Consideration.html">Consideration</a></h4>
+      <section><p>A scriptable object with a method GetScore returning a value between 0-1, this score is used by <a class="xref" href="TinnyStudios.AIUtility.UtilityPlanner.html">UtilityPlanner</a> to determine if an action should be considered or not.
+Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hungry.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a></h4>
+      <section><p>The base class for the move system. This lets the agent choose which system to use.
+You have to implement your own, see <a class="xref" href="TinnyStudios.AIUtility.MoveSystemNavMeshExample.html">MoveSystemNavMeshExample</a> for an example.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.MoveSystemNavMeshExample.html">MoveSystemNavMeshExample</a></h4>
+      <section></section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.StopwatchWatcher.html">StopwatchWatcher</a></h4>
+      <section><p>An implementation of <a class="xref" href="TinnyStudios.AIUtility.TimeWatcher.html">TimeWatcher</a> as a time counter using Stopwatch.
+This is used to track how long as action has performed for.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.TimeWatcher.html">TimeWatcher</a></h4>
+      <section><p>This is used to track how long as action has performed for.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.UtilityAction.html">UtilityAction</a></h4>
+      <section><p>The base implementation for Utility Action to be used by the planner.
+See the interface <a class="xref" href="TinnyStudios.AIUtility.IUtilityAction.html">IUtilityAction</a> for detailed comments.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.UtilityAction.ActionEvents.html">UtilityAction.ActionEvents</a></h4>
+      <section><p>A set of Unity Events that the action can go through. Useful for quick prototypes.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.UtilityPlanner.html">UtilityPlanner</a></h4>
+      <section><p>Score Evaluator</p>
+</section>
+    <h3 id="interfaces">Interfaces
+  </h3>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.IAgentDataContext.html">IAgentDataContext</a></h4>
+      <section><p>An interface for inferring and finding agent data context.
+The agent data context can be any data, it just gets cast and cached to its concrete type.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.IUtilityAction.html">IUtilityAction</a></h4>
+      <section><p>The base implementation for Utility Action to be used by the planner.</p>
+</section>
+    <h3 id="enums">Enums
+  </h3>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.EActionStatus.html">EActionStatus</a></h4>
+      <section><p>The state the action is in. This is returned by <a class="xref" href="TinnyStudios.AIUtility.UtilityAction.html">UtilityAction</a> Perform method.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.EAgentLogType.html">EAgentLogType</a></h4>
+      <section><p>The type of logs we can filter by <a class="xref" href="TinnyStudios.AIUtility.UtilityPlanner.html">UtilityPlanner</a> log types.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.EAgentState.html">EAgentState</a></h4>
+      <section><p>The state the Agent is currently in.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.EUpdateType.html">EUpdateType</a></h4>
+      <section><p>Decides how the Agent update is handled.</p>
+</section>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
