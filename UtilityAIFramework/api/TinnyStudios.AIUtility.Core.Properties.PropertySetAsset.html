@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class Consideration
+    <title>Class PropertySetAsset
    | Utility AI Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class Consideration
+    <meta name="title" content="Class PropertySetAsset
    | Utility AI Framework ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,45 +78,36 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Consideration">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset">
   
   
-  <h1 id="TinnyStudios_AIUtility_Consideration" data-uid="TinnyStudios.AIUtility.Consideration" class="text-break">Class Consideration
+  <h1 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset" class="text-break">Class PropertySetAsset
   </h1>
-  <div class="markdown level0 summary"><p>A scriptable object with a method GetScore returning a value between 0-1, this score is used by <a class="xref" href="TinnyStudios.AIUtility.UtilityPlanner.html">UtilityPlanner</a> to determine if an action should be considered or not.
-Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hungry.</p>
+  <div class="markdown level0 summary"><p>The scriptable object containing a collection of property sets that is used by <a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a> and <a class="xref" href="TinnyStudios.AIUtility.UtilityAction.html">UtilityAction</a>
+This is a useful way of keeping track of the game states and passing it down to the Consideration class or other systems without touching the code base.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">Consideration</span></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html">BuySwordConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html">HasMonsterConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html">HasWeaponConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html">HasWorkConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html">HungerConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html">MoneyConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html">SleepinessConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html">SpellElementConsideration</a></div>
-      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html">SpellQuantityConsideration</a></div>
+    <div class="level1"><span class="xref">PropertySetAsset</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.html">TinnyStudios.AIUtility</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.Core.Properties.html">TinnyStudios.AIUtility.Core.Properties</a></h6>
   <h6><strong>Assembly</strong>: UtilityAIFramework.dll</h6>
-  <h5 id="TinnyStudios_AIUtility_Consideration_syntax">Syntax</h5>
+  <h5 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class Consideration : ScriptableObject</code></pre>
+    <pre><code class="lang-csharp hljs">public class PropertySetAsset : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="TinnyStudios_AIUtility_Consideration_Description" data-uid="TinnyStudios.AIUtility.Consideration.Description">Description</h4>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_BoolPropertySet" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.BoolPropertySet">BoolPropertySet</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Description</code></pre>
+    <pre><code class="lang-csharp hljs">public BoolPropertySet BoolPropertySet</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -128,19 +119,19 @@ Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hun
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.BoolPropertySet.html">BoolPropertySet</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="TinnyStudios_AIUtility_Consideration_ResponseCurve" data-uid="TinnyStudios.AIUtility.Consideration.ResponseCurve">ResponseCurve</h4>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_FloatPropertySet" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.FloatPropertySet">FloatPropertySet</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public AnimationCurve ResponseCurve</code></pre>
+    <pre><code class="lang-csharp hljs">public FloatPropertySet FloatPropertySet</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,7 +143,79 @@ Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hun
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">AnimationCurve</span></td>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.FloatPropertySet.html">FloatPropertySet</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_IntPropertySet" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.IntPropertySet">IntPropertySet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IntPropertySet IntPropertySet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.IntPropertySet.html">IntPropertySet</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_TransformPropertySet" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.TransformPropertySet">TransformPropertySet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TransformPropertySet TransformPropertySet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.TransformPropertySet.html">TransformPropertySet</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Vector3PropertySet" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Vector3PropertySet">Vector3PropertySet</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3PropertySet Vector3PropertySet</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet.html">Vector3PropertySet</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -161,37 +224,25 @@ Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hun
   </h3>
   
   
-  <a id="TinnyStudios_AIUtility_Consideration_GetScore_" data-uid="TinnyStudios.AIUtility.Consideration.GetScore*"></a>
-  <h4 id="TinnyStudios_AIUtility_Consideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_" data-uid="TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)">GetScore(Agent, IUtilityAction)</h4>
-  <div class="markdown level1 summary"><p>Return between 0 and 1.</p>
+  <a id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Awake_" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Awake" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake">Awake()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void Awake()</code></pre>
+  </div>
+  
+  
+  <a id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Clone_" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Clone" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone">Clone()</h4>
+  <div class="markdown level1 summary"><p>Clones the current set to return a new instance. This is so the original scriptable object is not modified.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract float GetScore(Agent agent, IUtilityAction action)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual PropertySetAsset Clone()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a></td>
-        <td><span class="parametername">agent</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.IUtilityAction.html">IUtilityAction</a></td>
-        <td><span class="parametername">action</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -202,54 +253,23 @@ Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hun
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
+        <td><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html">PropertySetAsset</a></td>
+        <td><p>A new instance of property set asset.</p>
+</td>
       </tr>
     </tbody>
   </table>
   
   
-  <a id="TinnyStudios_AIUtility_Consideration_GetSimulatedScore_" data-uid="TinnyStudios.AIUtility.Consideration.GetSimulatedScore*"></a>
-  <h4 id="TinnyStudios_AIUtility_Consideration_GetSimulatedScore_System_Single_" data-uid="TinnyStudios.AIUtility.Consideration.GetSimulatedScore(System.Single)">GetSimulatedScore(Single)</h4>
-  <div class="markdown level1 summary"><p>Used in Editor view to get a simulated score. Helpful for understanding what these curve responses actually output.</p>
+  <a id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Initialize_" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Initialize" data-uid="TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize">Initialize()</h4>
+  <div class="markdown level1 summary"><p>Initializes all property sets.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public virtual float GetSimulatedScore(float value)</code></pre>
+    <pre><code class="lang-csharp hljs">public virtual void Initialize()</code></pre>
   </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td><span class="parametername">value</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
 </article>
           </div>
           

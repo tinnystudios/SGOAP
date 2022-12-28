@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class MonsterManager
+    <title>Class ActionMoveProperties
    | Utility AI Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class MonsterManager
+    <meta name="title" content="Class ActionMoveProperties
    | Utility AI Framework ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,87 +78,35 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.ActionMoveProperties">
   
   
-  <h1 id="TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MonsterManager" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager" class="text-break">Class MonsterManager
+  <h1 id="TinnyStudios_AIUtility_ActionMoveProperties" data-uid="TinnyStudios.AIUtility.ActionMoveProperties" class="text-break">Class ActionMoveProperties
   </h1>
-  <div class="markdown level0 summary"><p>In this example, the monster manager instantiate 1 every 10s</p>
+  <div class="markdown level0 summary"><p>Move Properties used by <a class="xref" href="TinnyStudios.AIUtility.ActionMoveData.html">ActionMoveData</a></p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html">ObjectManager</a>&lt;<a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Monster.html">Monster</a>, <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.html">MonsterManager</a>&gt;</div>
-    <div class="level2"><span class="xref">MonsterManager</span></div>
+    <div class="level1"><span class="xref">ActionMoveProperties</span></div>
   </div>
-  <div class="inheritedMembers">
-    <h5>Inherited Members</h5>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Objects">ObjectManager&lt;Monster, MonsterManager&gt;.Objects</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Prefab">ObjectManager&lt;Monster, MonsterManager&gt;.Prefab</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_ConcreteManager">ObjectManager&lt;Monster, MonsterManager&gt;.ConcreteManager</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Count">ObjectManager&lt;Monster, MonsterManager&gt;.Count</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Add__0_">ObjectManager&lt;Monster, MonsterManager&gt;.Add(Monster)</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Remove__0_">ObjectManager&lt;Monster, MonsterManager&gt;.Remove(Monster)</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_GetFirstOrDefault">ObjectManager&lt;Monster, MonsterManager&gt;.GetFirstOrDefault()</a>
-    </div>
-    <div>
-      <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Spawn_Vector3_Quaternion_Transform_">ObjectManager&lt;Monster, MonsterManager&gt;.Spawn(Vector3, Quaternion, Transform)</a>
-    </div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.html">TinnyStudios.AIUtility.Impl.Examples.FarmerHero</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.html">TinnyStudios.AIUtility</a></h6>
   <h6><strong>Assembly</strong>: UtilityAIFramework.dll</h6>
-  <h5 id="TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MonsterManager_syntax">Syntax</h5>
+  <h5 id="TinnyStudios_AIUtility_ActionMoveProperties_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class MonsterManager : ObjectManager&lt;Monster, MonsterManager&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class ActionMoveProperties : ScriptableObject</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
   
   
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MonsterManager_Max" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.Max">Max</h4>
+  <h4 id="TinnyStudios_AIUtility_ActionMoveProperties_Acceleration" data-uid="TinnyStudios.AIUtility.ActionMoveProperties.Acceleration">Acceleration</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int Max</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MonsterManager_SpawnInterval" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.SpawnInterval">SpawnInterval</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float SpawnInterval</code></pre>
+    <pre><code class="lang-csharp hljs">public float Acceleration</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,12 +125,12 @@
   </table>
   
   
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MonsterManager_Stopwatch" data-uid="TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.Stopwatch">Stopwatch</h4>
+  <h4 id="TinnyStudios_AIUtility_ActionMoveProperties_AngularSpeed" data-uid="TinnyStudios.AIUtility.ActionMoveProperties.AngularSpeed">AngularSpeed</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Stopwatch Stopwatch</code></pre>
+    <pre><code class="lang-csharp hljs">public float AngularSpeed</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -194,7 +142,55 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.diagnostics.stopwatch">Stopwatch</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TinnyStudios_AIUtility_ActionMoveProperties_Speed" data-uid="TinnyStudios.AIUtility.ActionMoveProperties.Speed">Speed</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float Speed</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="TinnyStudios_AIUtility_ActionMoveProperties_StopDistance" data-uid="TinnyStudios.AIUtility.ActionMoveProperties.StopDistance">StopDistance</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float StopDistance</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
         <td></td>
       </tr>
     </tbody>

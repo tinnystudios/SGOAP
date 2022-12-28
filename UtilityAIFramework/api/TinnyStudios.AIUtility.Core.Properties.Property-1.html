@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class ElementTrait
+    <title>Class Property&lt;T&gt;
    | Utility AI Framework </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class ElementTrait
+    <meta name="title" content="Class Property&lt;T&gt;
    | Utility AI Framework ">
     <meta name="generator" content="docfx 2.59.2.0">
     
@@ -78,18 +78,26 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait">
+            <article class="content wrap" id="_content" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1">
   
   
-  <h1 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait" class="text-break">Class ElementTrait
+  <h1 id="TinnyStudios_AIUtility_Core_Properties_Property_1" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1" class="text-break">Class Property&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Determines the pros and cons of an element.</p>
+  <div class="markdown level0 summary"><p>A generic property that handles storing the value of the property.
+The name is used in the lookup table.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><span class="xref">ElementTrait</span></div>
+    <div class="level1"><span class="xref">Property&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.BoolProperty.html">BoolProperty</a></div>
+      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.FloatProperty.html">FloatProperty</a></div>
+      <div class="level2"><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.Vector3Property.html">Vector3Property</a></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.IProperty-1.html">IProperty</a>&lt;T&gt;</div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -115,23 +123,49 @@
       <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone#system-object-memberwiseclone">Object.MemberwiseClone()</a>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.html">TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="TinnyStudios.AIUtility.Core.Properties.html">TinnyStudios.AIUtility.Core.Properties</a></h6>
   <h6><strong>Assembly</strong>: UtilityAIFramework.dll</h6>
-  <h5 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_syntax">Syntax</h5>
+  <h5 id="TinnyStudios_AIUtility_Core_Properties_Property_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ElementTrait</code></pre>
+    <pre><code class="lang-csharp hljs">[Serializable]
+public class Property&lt;T&gt; : IProperty&lt;T&gt;</code></pre>
   </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="constructors">Constructors
   </h3>
   
   
-  <a id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait__ctor_" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor*"></a>
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait__ctor_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType,TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType,TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)">ElementTrait(EElementType, EElementType, EElementType)</h4>
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1__ctor_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1__ctor" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor">Property()</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ElementTrait(EElementType type, EElementType weakTo, EElementType strongTo)</code></pre>
+    <pre><code class="lang-csharp hljs">public Property()</code></pre>
+  </div>
+  
+  
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1__ctor_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1__ctor__0_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor(`0)">Property(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Property(T value)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -144,18 +178,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
-        <td><span class="parametername">type</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
-        <td><span class="parametername">weakTo</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
-        <td><span class="parametername">strongTo</span></td>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -164,12 +188,12 @@
   </h3>
   
   
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_StrongTo" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.StrongTo">StrongTo</h4>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_Name" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.Name">Name</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EElementType StrongTo</code></pre>
+    <pre><code class="lang-csharp hljs">public string Name</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -181,19 +205,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
   
   
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_Type" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.Type">Type</h4>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_Value" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.Value">Value</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EElementType Type</code></pre>
+    <pre><code class="lang-csharp hljs">public T Value</code></pre>
   </div>
   <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -205,31 +229,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_WeakTo" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.WeakTo">WeakTo</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public EElementType WeakTo</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -238,13 +238,13 @@
   </h3>
   
   
-  <a id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_GetEffectiveness_" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness*"></a>
-  <h4 id="TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_GetEffectiveness_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_" data-uid="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)">GetEffectiveness(EElementType)</h4>
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1_SetName_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.SetName*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_SetName_System_String_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.SetName(System.String)">SetName(String)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public float GetEffectiveness(EElementType type)</code></pre>
+    <pre><code class="lang-csharp hljs">public void SetName(string name)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -257,12 +257,93 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html">EElementType</a></td>
-        <td><span class="parametername">type</span></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
+        <td><span class="parametername">name</span></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue__0_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue(`0)">SetValue(T)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual void SetValue(T value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue__1___0_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue``1(``0)">SetValue&lt;T1&gt;(T1)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetValue&lt;T1&gt;(T1 value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T1</span></td>
+        <td><span class="parametername">value</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T1</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="eii">Explicit Interface Implementations
+  </h3>
+  
+  
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Name_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Name*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Name" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Name">IProperty&lt;T&gt;.Name</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">string IProperty&lt;T&gt;.Name { get; }</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -273,11 +354,40 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.single">Single</a></td>
+        <td><a class="xref" href="https://learn.microsoft.com/dotnet/api/system.string">String</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Value_" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Value*"></a>
+  <h4 id="TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Value" data-uid="TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Value">IProperty&lt;T&gt;.Value</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">T IProperty&lt;T&gt;.Value { get; }</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TinnyStudios.AIUtility.Core.Properties.IProperty-1.html">IProperty&lt;T&gt;</a>
+  </div>
 </article>
           </div>
           

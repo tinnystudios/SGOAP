@@ -53,7 +53,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.ActionMoveData.html",
-          "hash": "l47pzHpF0l6AP0tXCduEHucLNx03UdZWdm29jIvjKI8="
+          "hash": "NRmT42PfK4r5wO8uXLwuRm7T+2fcyFdrm+J85IpHL6A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.ActionMoveProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.ActionMoveProperties.html",
+          "hash": "HGD7Yjkt6XooEVW66mG9Xk1dwH7Jdwt9oiqTw9MqrAs="
         }
       },
       "is_incremental": false,
@@ -65,7 +77,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.ActionPerformData.html",
-          "hash": "aBypBtB+K7mHY+IL/FonfaET+4E2HcSH3RK8uTW6gno="
+          "hash": "HgysUJmMrvot2JUe5xYyPjoHLFiEIWqZ4nNw2+YcAcs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.ActionPerformProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.ActionPerformProperties.html",
+          "hash": "eqZpUhrzWvoZ6kNI2LbWiOsF6dZIDFrrMt0f+fRWE+Q="
         }
       },
       "is_incremental": false,
@@ -89,7 +113,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Agent.html",
-          "hash": "Lb4gLnnAjQYkVikjqfC870frunQubaxnllPRZ+DBALs="
+          "hash": "J8lHJXKeCi6g1ldKYlpM47b6mgcdhGqV6eJo0TsmQ7Q="
         }
       },
       "is_incremental": false,
@@ -113,7 +137,187 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Consideration.html",
-          "hash": "sB9PygXCaVvztUhPLGxKdvGGCAG5Z8kcFqUEVDZKnds="
+          "hash": "DVu7SVDcbwaHvJAza0gSra2aOm9+cP1WOGb5JGG20gk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.BoolProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.BoolProperty.html",
+          "hash": "fISfc4a5wHRWCq6TTeoT6BuffoNYscz2yCM3Zalm+E4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.BoolPropertySet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.BoolPropertySet.html",
+          "hash": "KOI4sPGccv9Y/BpML10v0xx6KLCOm+l0LyRIMX83YMw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.FloatProperty.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.FloatProperty.html",
+          "hash": "zbtAsGEdNa/2C0OwqYe5tWYI/CN6MnmVKh/OTNgojPw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.FloatPropertySet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.FloatPropertySet.html",
+          "hash": "eRlRZzje5eDBIXoOU8H89hedOgJFCmOgp+99ms+Ssaw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html",
+          "hash": "UEmgy3ZUAGTbzbmmKNIfMEs0DisIsmzt7FGCugIXnzM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.IntPropertySet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.IntPropertySet.html",
+          "hash": "T4hjvcU9+a6+KjxLqmiP8vas4W4bgbSnPp3l6XdQqHI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.Property-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.Property-1.html",
+          "hash": "Z9wgi2em5SfmJt4leaalWqEd1aBuGRmk1RnAejKmoV8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.PropertyConst.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.PropertyConst.html",
+          "hash": "ZuGCKifjR+RS7GErskA+71pPeaJDpel1w+UU0MRIEWU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html",
+          "hash": "M7BNg9E6AwLBLGXbiUHfK2vYVrOqeAorUuuXrSg7b/A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html",
+          "hash": "KYV1hePVBigcrmp9qLjqSBYJoU5Wt/c/W4HrqPb/lM8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html",
+          "hash": "hEvkr9UIlYYLnfCjvce9Jgqcee6jxquCaUmVKza7PqM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.TransformPropertySet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.TransformPropertySet.html",
+          "hash": "XOy9dvAuHxlX164hahoLfgsE9xfOY6i2QCsxQQWJKck="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.Vector3Property.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.Vector3Property.html",
+          "hash": "K+zGlQda3GC0H7xR+3SJ792d/wIbO1EPtzTbFuCTK10="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet.html",
+          "hash": "F38YaiRIR8bg1DAVEuovBd7t50Rz3tfoXKM4LC9lwss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.html",
+          "hash": "fjmhpd45KhqUUck423GIda1hQK5+cSlQI4g/+NKQ+hA="
         }
       },
       "is_incremental": false,
@@ -233,7 +437,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.IUtilityAction.html",
-          "hash": "k0KNc7xxO0EscOR1U9Gc3S7nXOKyNss3drw+LO0Ktok="
+          "hash": "uAZN5CyZf8ZtyJV2SDRGUw5aUitcg2TnbgxEZFb2Ntg="
         }
       },
       "is_incremental": false,
@@ -257,7 +461,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordAction.html",
-          "hash": "4ZyFQFo49P+3kT+yx4YoPsXqOeb0tqVrR2HVcEsPxBE="
+          "hash": "rBkKRiehVclEsxcUzX2qAgGRFuopSz70jX2OZXYUhmE="
         }
       },
       "is_incremental": false,
@@ -269,7 +473,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html",
-          "hash": "zph8cZzhfo73epi7+G5x4avDcJA9rb6i8cYvo2kBgqA="
+          "hash": "KNkx4nMAkww4NzvWRNAmF7Nek1zFzGht2g1/DWmzTSM="
         }
       },
       "is_incremental": false,
@@ -281,7 +485,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.EatAction.html",
-          "hash": "CEvBOIb+qECN+QqBViRdJzs/XAdijXKyQuFrvE3QN6g="
+          "hash": "TSYR4h/qYeYW8mIsEvhrzeP59yoJP98XSqKfec39r3c="
         }
       },
       "is_incremental": false,
@@ -317,7 +521,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.GiveSwordAction.html",
-          "hash": "3rETv+JmlKtKqvtS3Btq9APWYuafa+YTTA4iChm31B4="
+          "hash": "7VaCgRsvHjZ1eaDPVbLmZEOv6QBT9SDEdNVjF0TCcVE="
         }
       },
       "is_incremental": false,
@@ -329,7 +533,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html",
-          "hash": "OyPRoltP7xRVDARKUu9fb3VMuHMyLDv5o19oKH6Lcm0="
+          "hash": "T2U6ufWpUW9rdvKNAur2rVaxAVWzgjl2MQl5SGST9TQ="
         }
       },
       "is_incremental": false,
@@ -341,7 +545,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html",
-          "hash": "FcdJWasQJlSRlLyWP0pumdcjhBKu71Vj/VN1BoE0Rmw="
+          "hash": "8DDAGxkuZu9/uu/ZjVHfsspPfk55XDklw+ebNGCI35I="
         }
       },
       "is_incremental": false,
@@ -353,7 +557,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html",
-          "hash": "qyVNOJvfo4CvNOYD52y+/fGoZLJy3cJm9WCgSoUrM4U="
+          "hash": "frFt5X4LxZZRZVodkgmE/7agUJErfrSY9XXhwzNHls0="
         }
       },
       "is_incremental": false,
@@ -365,7 +569,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html",
-          "hash": "jbd37CdRCPtlbC1LG/WdusnWq6Md4UvKN7CSjA925gc="
+          "hash": "P0JQZTYTSHpwqTINhNb53G89fqjjM6lLi2/nC16LUtg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject-1.html",
+          "hash": "rd5xiu5gxqIQ6b3eT+o211nxPwrT54CQdWlRY2rBQAY="
         }
       },
       "is_incremental": false,
@@ -385,11 +601,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.html",
+          "hash": "zFX4CZfcB08h7tBPR0MTkFIFTH6kTsxneiahoq5s3ss="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.yml",
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html",
-          "hash": "HeHSh6CG8qAaVMoBPK2ScU2lb+HEOu4PqG3DZmjU3S8="
+          "hash": "TeQMpltGQG7GUBmXRF/n3cGJZiueLDyqfKWbM+mA+aM="
         }
       },
       "is_incremental": false,
@@ -401,7 +629,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Monster.html",
-          "hash": "L14XvVxCcdZ//qwA70i6410Kb0Eqqs4KFLW8/CPCaZ0="
+          "hash": "hpFjHXJ+yRYokVC54znAJI4OYz5wLTomY8IRejbxaws="
         }
       },
       "is_incremental": false,
@@ -413,7 +641,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.html",
-          "hash": "/erzTbnFlAwb0RuzsDLEgM3bA4v7/3r5mHt9xdfga88="
+          "hash": "1RJyASqajJxIwYQgwaFLr0QbU9qBcEzj+G2a15l+5BQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html",
+          "hash": "ic8bm/aVxf4viHrt07cUhLjzpVV5Xace19B9gTeABZc="
         }
       },
       "is_incremental": false,
@@ -425,7 +665,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html",
-          "hash": "tPwMzqCnte6+NyyTbZG1WYhvde8pwwmraVtEvRYRzQ8="
+          "hash": "PF6OSj3J3lw94nIxuAVVaCvMH2o0cVAmaX2SMDcpGIU="
         }
       },
       "is_incremental": false,
@@ -437,7 +677,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html",
-          "hash": "KR45V7/Ud170TvDeCNTZOd86RyT1BiFfWcm4lrRRITo="
+          "hash": "/lNOu3oi4o681/KLlP9WhlMXCczvlDEOyVEWk6X0O9E="
         }
       },
       "is_incremental": false,
@@ -473,7 +713,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SwordFightAction.html",
-          "hash": "wjL58U4CmZqduzRTBSGNOL8jfJk3OguuFIAaYoHWufc="
+          "hash": "iJvDkSwEAD1KjMHOsDDVFHyrA9ng+HwZIYIxkMYO9CE="
         }
       },
       "is_incremental": false,
@@ -485,7 +725,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObject.html",
-          "hash": "ft+XS2YBII7Y79onrgd0ClFko1ZRiAZtEODhbx4c1qQ="
+          "hash": "lbQhIN2v7sQ3BLo8/o8+yZ5CG70mHUGXFYTxzX8f0Rk="
         }
       },
       "is_incremental": false,
@@ -497,7 +737,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.TreeObjectManager.html",
-          "hash": "b7K329JCvyTdAWUGzajhqF/c245CAIYRv0IP+P4/yi4="
+          "hash": "FzrDVqqehiPgJvJH1Fym3R+l8IO6IMFf+8xbWcB9GEk="
         }
       },
       "is_incremental": false,
@@ -509,7 +749,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.WorkAction.html",
-          "hash": "jwS938XEl2pywdk2YQAWgR9z+9rrO7SIxVE3NO90M7o="
+          "hash": "XzoY6B2533T7B9cAolCZQ8YeI4gkEqTetGLUViX7cOU="
         }
       },
       "is_incremental": false,
@@ -521,7 +761,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.html",
-          "hash": "AgPRV1RvVCe7JXnKEnnjjen6TeyMCng7++WxJXItv3Y="
+          "hash": "GZaLuV43JrnGWhN3qaYVjPifDUMG8268xRdOz01YC5Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html",
+          "hash": "c1ElWCvmjUkTiFtRoyi1pLJ8+G4apz2jkAWQcmDqDI4="
         }
       },
       "is_incremental": false,
@@ -533,7 +785,19 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html",
-          "hash": "96HXzF8q13i3+4XPFRQCjARBLx30oaBVflROB1oGgYM="
+          "hash": "J3aw7uBHjQjbDM8uY6BwcZjZ2YVivZ+qoA0Jx/paxT4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind-1.html",
+          "hash": "I7RuuKuL7Meemt5Z/nCiz1cttoQjEYhgwKDEwKVBeJk="
         }
       },
       "is_incremental": false,
@@ -557,7 +821,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackAction.html",
-          "hash": "RSsrXZyKTYhtOnGNCfvwFNgd8887fOozXWDHwNQ3KKM="
+          "hash": "AB3a7Qnm3CkZftbCnoENs6GXaBq6OWl+EuJOxMrD/jU="
         }
       },
       "is_incremental": false,
@@ -569,7 +833,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellAttackData.html",
-          "hash": "/AwkqaEks1AYGiby+dxTLhqw+y7f7f0AIaqBJwj0wNY="
+          "hash": "AFOSRw8G5D8t4xdL1UnLP6iCAnVO8T0NCa8PBcjypLE="
         }
       },
       "is_incremental": false,
@@ -581,7 +845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html",
-          "hash": "F4ysufUH2VUeFCCffJxgGVfW7Z2q5NmdQMTl2Ke/rMY="
+          "hash": "YVzR/YtL3/hiR7xps0xf6hgqHewvV1xdtaZk8JFmXK0="
         }
       },
       "is_incremental": false,
@@ -593,7 +857,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html",
-          "hash": "/Ew8LA8h5BLIiB4zx0X9akubImZRyCtkMklTvBAnBdA="
+          "hash": "lA5nE4ag3vp5ShP2T3VmR4uGXSGpeuoNzggXR+PYY50="
         }
       },
       "is_incremental": false,
@@ -605,7 +869,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBaseCharacter.html",
-          "hash": "EhcECmjO9aJbCV7PbKa4d1Fml4LrTzC9vjLAYpa930Q="
+          "hash": "wJJ3vxYwyyGMubYgLEzPr5gv5zBPhSh5C8QjflvaL9o="
         }
       },
       "is_incremental": false,
@@ -629,7 +893,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.TurnBasedGameManager.html",
-          "hash": "4IkzNAZsmXxbQdMOdLTXwfVXhi74bHqt5RWuBVEConc="
+          "hash": "r4Bi6W01m02Y6mJj2y6rvR/pFKa6zwIFn+9a+Q6Pdkk="
         }
       },
       "is_incremental": false,
@@ -641,7 +905,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.html",
-          "hash": "zONpDy81JF9895cTHEB9QijT1Pt/Gr/aBlba/t/+t/w="
+          "hash": "l9+fA6+gb1MGAoSoRQSHb5Y+r41wOR0Xr4rTqB7jCN0="
         }
       },
       "is_incremental": false,
@@ -665,7 +929,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.MoveSystemNavMeshExample.html",
-          "hash": "FQWhuE/CUDMxVNNKBBlLjK/Tlr79SWCAthimSGtqLfc="
+          "hash": "jqsK7LUsewEsVjh9eMCh2kMq2vzJZekuGGekxxe9+cY="
         }
       },
       "is_incremental": false,
@@ -713,7 +977,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.UtilityAction.html",
-          "hash": "5QoB7pouGNiKxdGtgPh8Wkkmu9hGitnfZeV5/e4zMOM="
+          "hash": "PBPMPn6hvuMctP0ftfJIXtz0PAAHqJQ0VG5LkglM5T8="
         }
       },
       "is_incremental": false,
@@ -737,7 +1001,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.html",
-          "hash": "2mTMaZZohmvRuHhvCP//luWIhB0LQwxC6wxjou1MFPM="
+          "hash": "4RPHW2+bs0T1T6m0CGdQRO3upmTYht/DNei21IxgD5w="
         }
       },
       "is_incremental": false,
@@ -749,7 +1013,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "T/0otWPkgMz8NxcHx9CmHWqn9tc+/f4IQk7beelf+kY="
+          "hash": "dNo3f2hnDJJWOEehmuIxcMqdh00mzm1oxNmAPONAqPU="
         }
       },
       "is_incremental": false,
@@ -789,8 +1053,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 66,
-          "skipped_file_count": 23
+          "total_file_count": 88,
+          "skipped_file_count": 87
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

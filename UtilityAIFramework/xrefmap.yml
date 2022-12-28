@@ -31,6 +31,36 @@ references:
   commentId: F:TinnyStudios.AIUtility.ActionMoveData.Required
   fullName: TinnyStudios.AIUtility.ActionMoveData.Required
   nameWithType: ActionMoveData.Required
+- uid: TinnyStudios.AIUtility.ActionMoveProperties
+  name: ActionMoveProperties
+  href: api/TinnyStudios.AIUtility.ActionMoveProperties.html
+  commentId: T:TinnyStudios.AIUtility.ActionMoveProperties
+  fullName: TinnyStudios.AIUtility.ActionMoveProperties
+  nameWithType: ActionMoveProperties
+- uid: TinnyStudios.AIUtility.ActionMoveProperties.Acceleration
+  name: Acceleration
+  href: api/TinnyStudios.AIUtility.ActionMoveProperties.html#TinnyStudios_AIUtility_ActionMoveProperties_Acceleration
+  commentId: F:TinnyStudios.AIUtility.ActionMoveProperties.Acceleration
+  fullName: TinnyStudios.AIUtility.ActionMoveProperties.Acceleration
+  nameWithType: ActionMoveProperties.Acceleration
+- uid: TinnyStudios.AIUtility.ActionMoveProperties.AngularSpeed
+  name: AngularSpeed
+  href: api/TinnyStudios.AIUtility.ActionMoveProperties.html#TinnyStudios_AIUtility_ActionMoveProperties_AngularSpeed
+  commentId: F:TinnyStudios.AIUtility.ActionMoveProperties.AngularSpeed
+  fullName: TinnyStudios.AIUtility.ActionMoveProperties.AngularSpeed
+  nameWithType: ActionMoveProperties.AngularSpeed
+- uid: TinnyStudios.AIUtility.ActionMoveProperties.Speed
+  name: Speed
+  href: api/TinnyStudios.AIUtility.ActionMoveProperties.html#TinnyStudios_AIUtility_ActionMoveProperties_Speed
+  commentId: F:TinnyStudios.AIUtility.ActionMoveProperties.Speed
+  fullName: TinnyStudios.AIUtility.ActionMoveProperties.Speed
+  nameWithType: ActionMoveProperties.Speed
+- uid: TinnyStudios.AIUtility.ActionMoveProperties.StopDistance
+  name: StopDistance
+  href: api/TinnyStudios.AIUtility.ActionMoveProperties.html#TinnyStudios_AIUtility_ActionMoveProperties_StopDistance
+  commentId: F:TinnyStudios.AIUtility.ActionMoveProperties.StopDistance
+  fullName: TinnyStudios.AIUtility.ActionMoveProperties.StopDistance
+  nameWithType: ActionMoveProperties.StopDistance
 - uid: TinnyStudios.AIUtility.ActionPerformData
   name: ActionPerformData
   href: api/TinnyStudios.AIUtility.ActionPerformData.html
@@ -43,6 +73,18 @@ references:
   commentId: F:TinnyStudios.AIUtility.ActionPerformData.Properties
   fullName: TinnyStudios.AIUtility.ActionPerformData.Properties
   nameWithType: ActionPerformData.Properties
+- uid: TinnyStudios.AIUtility.ActionPerformProperties
+  name: ActionPerformProperties
+  href: api/TinnyStudios.AIUtility.ActionPerformProperties.html
+  commentId: T:TinnyStudios.AIUtility.ActionPerformProperties
+  fullName: TinnyStudios.AIUtility.ActionPerformProperties
+  nameWithType: ActionPerformProperties
+- uid: TinnyStudios.AIUtility.ActionPerformProperties.Duration
+  name: Duration
+  href: api/TinnyStudios.AIUtility.ActionPerformProperties.html#TinnyStudios_AIUtility_ActionPerformProperties_Duration
+  commentId: F:TinnyStudios.AIUtility.ActionPerformProperties.Duration
+  fullName: TinnyStudios.AIUtility.ActionPerformProperties.Duration
+  nameWithType: ActionPerformProperties.Duration
 - uid: TinnyStudios.AIUtility.Agent
   name: Agent
   href: api/TinnyStudios.AIUtility.Agent.html
@@ -349,6 +391,12 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Agent.Perform
   nameWithType: Agent.Perform
+- uid: TinnyStudios.AIUtility.Agent.PropertySet
+  name: PropertySet
+  href: api/TinnyStudios.AIUtility.Agent.html#TinnyStudios_AIUtility_Agent_PropertySet
+  commentId: F:TinnyStudios.AIUtility.Agent.PropertySet
+  fullName: TinnyStudios.AIUtility.Agent.PropertySet
+  nameWithType: Agent.PropertySet
 - uid: TinnyStudios.AIUtility.Agent.ReplaceActions(System.Collections.Generic.List{TinnyStudios.AIUtility.IUtilityAction})
   name: ReplaceActions(List<IUtilityAction>)
   href: api/TinnyStudios.AIUtility.Agent.html#TinnyStudios_AIUtility_Agent_ReplaceActions_System_Collections_Generic_List_TinnyStudios_AIUtility_IUtilityAction__
@@ -492,12 +540,12 @@ references:
   commentId: F:TinnyStudios.AIUtility.Consideration.Description
   fullName: TinnyStudios.AIUtility.Consideration.Description
   nameWithType: Consideration.Description
-- uid: TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Consideration.html#TinnyStudios_AIUtility_Consideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: Consideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Consideration.html#TinnyStudios_AIUtility_Consideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Consideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: Consideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Consideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Consideration.html#TinnyStudios_AIUtility_Consideration_GetScore_
@@ -524,6 +572,643 @@ references:
   commentId: F:TinnyStudios.AIUtility.Consideration.ResponseCurve
   fullName: TinnyStudios.AIUtility.Consideration.ResponseCurve
   nameWithType: Consideration.ResponseCurve
+- uid: TinnyStudios.AIUtility.Core.Properties
+  name: TinnyStudios.AIUtility.Core.Properties
+  href: api/TinnyStudios.AIUtility.Core.Properties.html
+  commentId: N:TinnyStudios.AIUtility.Core.Properties
+  fullName: TinnyStudios.AIUtility.Core.Properties
+  nameWithType: TinnyStudios.AIUtility.Core.Properties
+- uid: TinnyStudios.AIUtility.Core.Properties.BoolProperty
+  name: BoolProperty
+  href: api/TinnyStudios.AIUtility.Core.Properties.BoolProperty.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.BoolProperty
+  fullName: TinnyStudios.AIUtility.Core.Properties.BoolProperty
+  nameWithType: BoolProperty
+- uid: TinnyStudios.AIUtility.Core.Properties.BoolPropertySet
+  name: BoolPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.BoolPropertySet.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.BoolPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.BoolPropertySet
+  nameWithType: BoolPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.FloatProperty
+  name: FloatProperty
+  href: api/TinnyStudios.AIUtility.Core.Properties.FloatProperty.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.FloatProperty
+  fullName: TinnyStudios.AIUtility.Core.Properties.FloatProperty
+  nameWithType: FloatProperty
+- uid: TinnyStudios.AIUtility.Core.Properties.FloatPropertySet
+  name: FloatPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.FloatPropertySet.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.FloatPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.FloatPropertySet
+  nameWithType: FloatPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.IntPropertySet
+  name: IntPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.IntPropertySet.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.IntPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.IntPropertySet
+  nameWithType: IntPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1
+  name: IProperty<T>
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.IProperty`1
+  name.vb: IProperty(Of T)
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T)
+  nameWithType: IProperty<T>
+  nameWithType.vb: IProperty(Of T)
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.Name
+  name: Name
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_Name
+  commentId: P:TinnyStudios.AIUtility.Core.Properties.IProperty`1.Name
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).Name
+  nameWithType: IProperty<T>.Name
+  nameWithType.vb: IProperty(Of T).Name
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.Name*
+  name: Name
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_Name_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.IProperty`1.Name
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).Name
+  nameWithType: IProperty<T>.Name
+  nameWithType.vb: IProperty(Of T).Name
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetName(System.String)
+  name: SetName(String)
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_SetName_System_String_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetName(System.String)
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.SetName(System.String)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).SetName(System.String)
+  nameWithType: IProperty<T>.SetName(String)
+  nameWithType.vb: IProperty(Of T).SetName(String)
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetName*
+  name: SetName
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_SetName_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetName
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.SetName
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).SetName
+  nameWithType: IProperty<T>.SetName
+  nameWithType.vb: IProperty(Of T).SetName
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetValue(`0)
+  name: SetValue(T)
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_SetValue__0_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetValue(`0)
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.SetValue(T)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).SetValue(T)
+  nameWithType: IProperty<T>.SetValue(T)
+  nameWithType.vb: IProperty(Of T).SetValue(T)
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetValue*
+  name: SetValue
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_SetValue_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.IProperty`1.SetValue
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.SetValue
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).SetValue
+  nameWithType: IProperty<T>.SetValue
+  nameWithType.vb: IProperty(Of T).SetValue
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.Value
+  name: Value
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_Value
+  commentId: P:TinnyStudios.AIUtility.Core.Properties.IProperty`1.Value
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).Value
+  nameWithType: IProperty<T>.Value
+  nameWithType.vb: IProperty(Of T).Value
+- uid: TinnyStudios.AIUtility.Core.Properties.IProperty`1.Value*
+  name: Value
+  href: api/TinnyStudios.AIUtility.Core.Properties.IProperty-1.html#TinnyStudios_AIUtility_Core_Properties_IProperty_1_Value_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.IProperty`1.Value
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).Value
+  nameWithType: IProperty<T>.Value
+  nameWithType.vb: IProperty(Of T).Value
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1
+  name: Property<T>
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.Property`1
+  name.vb: Property(Of T)
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T)
+  nameWithType: Property<T>
+  nameWithType.vb: Property(Of T)
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor
+  name: Property()
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1__ctor
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.Property()
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).Property()
+  nameWithType: Property<T>.Property()
+  nameWithType.vb: Property(Of T).Property()
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor(`0)
+  name: Property(T)
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1__ctor__0_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor(`0)
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.Property(T)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).Property(T)
+  nameWithType: Property<T>.Property(T)
+  nameWithType.vb: Property(Of T).Property(T)
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor*
+  name: Property
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1__ctor_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.Property`1.#ctor
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.Property
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).Property
+  nameWithType: Property<T>.Property
+  nameWithType.vb: Property(Of T).Property
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.Name
+  name: Name
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_Name
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.Property`1.Name
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.Name
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).Name
+  nameWithType: Property<T>.Name
+  nameWithType.vb: Property(Of T).Name
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.SetName(System.String)
+  name: SetName(String)
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_SetName_System_String_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.Property`1.SetName(System.String)
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.SetName(System.String)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).SetName(System.String)
+  nameWithType: Property<T>.SetName(String)
+  nameWithType.vb: Property(Of T).SetName(String)
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.SetName*
+  name: SetName
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_SetName_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.Property`1.SetName
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.SetName
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).SetName
+  nameWithType: Property<T>.SetName
+  nameWithType.vb: Property(Of T).SetName
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue(`0)
+  name: SetValue(T)
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue__0_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue(`0)
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.SetValue(T)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).SetValue(T)
+  nameWithType: Property<T>.SetValue(T)
+  nameWithType.vb: Property(Of T).SetValue(T)
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue*
+  name: SetValue
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.SetValue
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).SetValue
+  nameWithType: Property<T>.SetValue
+  nameWithType.vb: Property(Of T).SetValue
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue``1(``0)
+  name: SetValue<T1>(T1)
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_SetValue__1___0_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.Property`1.SetValue``1(``0)
+  name.vb: SetValue(Of T1)(T1)
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.SetValue<T1>(T1)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).SetValue(Of T1)(T1)
+  nameWithType: Property<T>.SetValue<T1>(T1)
+  nameWithType.vb: Property(Of T).SetValue(Of T1)(T1)
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Name
+  name: IProperty<T>.Name
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Name
+  commentId: P:TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Name
+  name.vb: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  nameWithType: Property<T>.IProperty<T>.Name
+  nameWithType.vb: Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Name*
+  name: IProperty<T>.Name
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Name_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Name
+  isSpec: "True"
+  name.vb: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+  nameWithType: Property<T>.IProperty<T>.Name
+  nameWithType.vb: Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Name
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Value
+  name: IProperty<T>.Value
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Value
+  commentId: P:TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Value
+  name.vb: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  nameWithType: Property<T>.IProperty<T>.Value
+  nameWithType.vb: Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Value*
+  name: IProperty<T>.Value
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_TinnyStudios_AIUtility_Core_Properties_IProperty_T__Value_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.Property`1.TinnyStudios#AIUtility#Core#Properties#IProperty{T}#Value
+  isSpec: "True"
+  name.vb: TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+  nameWithType: Property<T>.IProperty<T>.Value
+  nameWithType.vb: Property(Of T).TinnyStudios.AIUtility.Core.Properties.IProperty<T>.Value
+- uid: TinnyStudios.AIUtility.Core.Properties.Property`1.Value
+  name: Value
+  href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html#TinnyStudios_AIUtility_Core_Properties_Property_1_Value
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.Property`1.Value
+  fullName: TinnyStudios.AIUtility.Core.Properties.Property<T>.Value
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.Property(Of T).Value
+  nameWithType: Property<T>.Value
+  nameWithType.vb: Property(Of T).Value
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertyConst
+  name: PropertyConst
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertyConst.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.PropertyConst
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertyConst
+  nameWithType: PropertyConst
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertyConst.GOLD
+  name: GOLD
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertyConst.html#TinnyStudios_AIUtility_Core_Properties_PropertyConst_GOLD
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertyConst.GOLD
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertyConst.GOLD
+  nameWithType: PropertyConst.GOLD
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2
+  name: PropertySet<TProperty, TValue>
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.PropertySet`2
+  name.vb: PropertySet(Of TProperty, TValue)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue)
+  nameWithType: PropertySet<TProperty, TValue>
+  nameWithType.vb: PropertySet(Of TProperty, TValue)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.Initialize
+  name: Initialize()
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_Initialize
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.Initialize
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.Initialize()
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).Initialize()
+  nameWithType: PropertySet<TProperty, TValue>.Initialize()
+  nameWithType.vb: PropertySet(Of TProperty, TValue).Initialize()
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.Initialize*
+  name: Initialize
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_Initialize_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.Initialize
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.Initialize
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).Initialize
+  nameWithType: PropertySet<TProperty, TValue>.Initialize
+  nameWithType.vb: PropertySet(Of TProperty, TValue).Initialize
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.Properties
+  name: Properties
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_Properties
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.Properties
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.Properties
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).Properties
+  nameWithType: PropertySet<TProperty, TValue>.Properties
+  nameWithType.vb: PropertySet(Of TProperty, TValue).Properties
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.PropertyLookUp
+  name: PropertyLookUp
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_PropertyLookUp
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.PropertyLookUp
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.PropertyLookUp
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).PropertyLookUp
+  nameWithType: PropertySet<TProperty, TValue>.PropertyLookUp
+  nameWithType.vb: PropertySet(Of TProperty, TValue).PropertyLookUp
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.SetValue(System.String,`1)
+  name: SetValue(String, TValue)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_SetValue_System_String__1_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.SetValue(System.String,`1)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.SetValue(System.String, TValue)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).SetValue(System.String, TValue)
+  nameWithType: PropertySet<TProperty, TValue>.SetValue(String, TValue)
+  nameWithType.vb: PropertySet(Of TProperty, TValue).SetValue(String, TValue)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.SetValue*
+  name: SetValue
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_SetValue_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.SetValue
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.SetValue
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).SetValue
+  nameWithType: PropertySet<TProperty, TValue>.SetValue
+  nameWithType.vb: PropertySet(Of TProperty, TValue).SetValue
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryAdd(System.String,`1)
+  name: TryAdd(String, TValue)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_TryAdd_System_String__1_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryAdd(System.String,`1)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.TryAdd(System.String, TValue)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).TryAdd(System.String, TValue)
+  nameWithType: PropertySet<TProperty, TValue>.TryAdd(String, TValue)
+  nameWithType.vb: PropertySet(Of TProperty, TValue).TryAdd(String, TValue)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryAdd*
+  name: TryAdd
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_TryAdd_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryAdd
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.TryAdd
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).TryAdd
+  nameWithType: PropertySet<TProperty, TValue>.TryAdd
+  nameWithType.vb: PropertySet(Of TProperty, TValue).TryAdd
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGet(System.String,`1@)
+  name: TryGet(String, out TValue)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_TryGet_System_String__1__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGet(System.String,`1@)
+  name.vb: TryGet(String, ByRef TValue)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.TryGet(System.String, out TValue)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).TryGet(System.String, ByRef TValue)
+  nameWithType: PropertySet<TProperty, TValue>.TryGet(String, out TValue)
+  nameWithType.vb: PropertySet(Of TProperty, TValue).TryGet(String, ByRef TValue)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGet*
+  name: TryGet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_TryGet_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGet
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.TryGet
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).TryGet
+  nameWithType: PropertySet<TProperty, TValue>.TryGet
+  nameWithType.vb: PropertySet(Of TProperty, TValue).TryGet
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGetProperty(System.String,`0@)
+  name: TryGetProperty(String, out TProperty)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_TryGetProperty_System_String__0__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGetProperty(System.String,`0@)
+  name.vb: TryGetProperty(String, ByRef TProperty)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.TryGetProperty(System.String, out TProperty)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).TryGetProperty(System.String, ByRef TProperty)
+  nameWithType: PropertySet<TProperty, TValue>.TryGetProperty(String, out TProperty)
+  nameWithType.vb: PropertySet(Of TProperty, TValue).TryGetProperty(String, ByRef TProperty)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGetProperty*
+  name: TryGetProperty
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html#TinnyStudios_AIUtility_Core_Properties_PropertySet_2_TryGetProperty_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySet`2.TryGetProperty
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySet<TProperty, TValue>.TryGetProperty
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySet(Of TProperty, TValue).TryGetProperty
+  nameWithType: PropertySet<TProperty, TValue>.TryGetProperty
+  nameWithType.vb: PropertySet(Of TProperty, TValue).TryGetProperty
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset
+  name: PropertySetAsset
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset
+  nameWithType: PropertySetAsset
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake
+  name: Awake()
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Awake
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake()
+  nameWithType: PropertySetAsset.Awake()
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake*
+  name: Awake
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Awake_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Awake
+  nameWithType: PropertySetAsset.Awake
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.BoolPropertySet
+  name: BoolPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_BoolPropertySet
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.BoolPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.BoolPropertySet
+  nameWithType: PropertySetAsset.BoolPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone
+  name: Clone()
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Clone
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone()
+  nameWithType: PropertySetAsset.Clone()
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone*
+  name: Clone
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Clone_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Clone
+  nameWithType: PropertySetAsset.Clone
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.FloatPropertySet
+  name: FloatPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_FloatPropertySet
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.FloatPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.FloatPropertySet
+  nameWithType: PropertySetAsset.FloatPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize
+  name: Initialize()
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Initialize
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize()
+  nameWithType: PropertySetAsset.Initialize()
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize*
+  name: Initialize
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Initialize_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Initialize
+  nameWithType: PropertySetAsset.Initialize
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.IntPropertySet
+  name: IntPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_IntPropertySet
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.IntPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.IntPropertySet
+  nameWithType: PropertySetAsset.IntPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.TransformPropertySet
+  name: TransformPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_TransformPropertySet
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.TransformPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.TransformPropertySet
+  nameWithType: PropertySetAsset.TransformPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Vector3PropertySet
+  name: Vector3PropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.html#TinnyStudios_AIUtility_Core_Properties_PropertySetAsset_Vector3PropertySet
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Vector3PropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetAsset.Vector3PropertySet
+  nameWithType: PropertySetAsset.Vector3PropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime
+  name: PropertySetRuntime
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime
+  nameWithType: PropertySetRuntime
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Clone
+  name: Clone
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Clone
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Clone
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Clone
+  nameWithType: PropertySetRuntime.Clone
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize
+  name: Initialize()
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Initialize
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize()
+  nameWithType: PropertySetRuntime.Initialize()
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize*
+  name: Initialize
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Initialize_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize
+  nameWithType: PropertySetRuntime.Initialize
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized
+  name: Initialized
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Initialized
+  commentId: P:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized
+  nameWithType: PropertySetRuntime.Initialized
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized*
+  name: Initialized
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Initialized_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized
+  nameWithType: PropertySetRuntime.Initialized
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Instance
+  name: Instance
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Instance
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Instance
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Instance
+  nameWithType: PropertySetRuntime.Instance
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Original
+  name: Original
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Original
+  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Original
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Original
+  nameWithType: PropertySetRuntime.Original
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,System.Boolean)
+  name: Set(String, Boolean)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Set_System_String_System_Boolean_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,System.Boolean)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String, System.Boolean)
+  nameWithType: PropertySetRuntime.Set(String, Boolean)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,System.Int32)
+  name: Set(String, Int32)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Set_System_String_System_Int32_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,System.Int32)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String, System.Int32)
+  nameWithType: PropertySetRuntime.Set(String, Int32)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,System.Single)
+  name: Set(String, Single)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Set_System_String_System_Single_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,System.Single)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String, System.Single)
+  nameWithType: PropertySetRuntime.Set(String, Single)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,Transform)
+  name: Set(String, Transform)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Set_System_String_Transform_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,Transform)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String, Transform)
+  nameWithType: PropertySetRuntime.Set(String, Transform)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,Vector3)
+  name: Set(String, Vector3)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Set_System_String_Vector3_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String,Vector3)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set(System.String, Vector3)
+  nameWithType: PropertySetRuntime.Set(String, Vector3)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set*
+  name: Set
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Set_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Set
+  nameWithType: PropertySetRuntime.Set
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,System.Boolean)
+  name: TryAdd(String, Boolean)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryAdd_System_String_System_Boolean_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,System.Boolean)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String, System.Boolean)
+  nameWithType: PropertySetRuntime.TryAdd(String, Boolean)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,System.Int32)
+  name: TryAdd(String, Int32)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryAdd_System_String_System_Int32_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,System.Int32)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String, System.Int32)
+  nameWithType: PropertySetRuntime.TryAdd(String, Int32)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,System.Single)
+  name: TryAdd(String, Single)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryAdd_System_String_System_Single_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,System.Single)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String, System.Single)
+  nameWithType: PropertySetRuntime.TryAdd(String, Single)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,Transform)
+  name: TryAdd(String, Transform)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryAdd_System_String_Transform_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,Transform)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String, Transform)
+  nameWithType: PropertySetRuntime.TryAdd(String, Transform)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,Vector3)
+  name: TryAdd(String, Vector3)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryAdd_System_String_Vector3_
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String,Vector3)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd(System.String, Vector3)
+  nameWithType: PropertySetRuntime.TryAdd(String, Vector3)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd*
+  name: TryAdd
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryAdd_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryAdd
+  nameWithType: PropertySetRuntime.TryAdd
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,System.Boolean@)
+  name: TryGet(String, out Boolean)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryGet_System_String_System_Boolean__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,System.Boolean@)
+  name.vb: TryGet(String, ByRef Boolean)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, out System.Boolean)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, ByRef System.Boolean)
+  nameWithType: PropertySetRuntime.TryGet(String, out Boolean)
+  nameWithType.vb: PropertySetRuntime.TryGet(String, ByRef Boolean)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,System.Int32@)
+  name: TryGet(String, out Int32)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryGet_System_String_System_Int32__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,System.Int32@)
+  name.vb: TryGet(String, ByRef Int32)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, out System.Int32)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, ByRef System.Int32)
+  nameWithType: PropertySetRuntime.TryGet(String, out Int32)
+  nameWithType.vb: PropertySetRuntime.TryGet(String, ByRef Int32)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,System.Single@)
+  name: TryGet(String, out Single)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryGet_System_String_System_Single__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,System.Single@)
+  name.vb: TryGet(String, ByRef Single)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, out System.Single)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, ByRef System.Single)
+  nameWithType: PropertySetRuntime.TryGet(String, out Single)
+  nameWithType.vb: PropertySetRuntime.TryGet(String, ByRef Single)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,Transform@)
+  name: TryGet(String, out Transform)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryGet_System_String_Transform__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,Transform@)
+  name.vb: TryGet(String, ByRef Transform)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, out Transform)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, ByRef Transform)
+  nameWithType: PropertySetRuntime.TryGet(String, out Transform)
+  nameWithType.vb: PropertySetRuntime.TryGet(String, ByRef Transform)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,Vector3@)
+  name: TryGet(String, out Vector3)
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryGet_System_String_Vector3__
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String,Vector3@)
+  name.vb: TryGet(String, ByRef Vector3)
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, out Vector3)
+  fullName.vb: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet(System.String, ByRef Vector3)
+  nameWithType: PropertySetRuntime.TryGet(String, out Vector3)
+  nameWithType.vb: PropertySetRuntime.TryGet(String, ByRef Vector3)
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet*
+  name: TryGet
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_TryGet_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.TryGet
+  nameWithType: PropertySetRuntime.TryGet
+- uid: TinnyStudios.AIUtility.Core.Properties.TransformPropertySet
+  name: TransformPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.TransformPropertySet.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.TransformPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.TransformPropertySet
+  nameWithType: TransformPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.Vector3Property
+  name: Vector3Property
+  href: api/TinnyStudios.AIUtility.Core.Properties.Vector3Property.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.Vector3Property
+  fullName: TinnyStudios.AIUtility.Core.Properties.Vector3Property
+  nameWithType: Vector3Property
+- uid: TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet
+  name: Vector3PropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet
+  nameWithType: Vector3PropertySet
 - uid: TinnyStudios.AIUtility.EActionStatus
   name: EActionStatus
   href: api/TinnyStudios.AIUtility.EActionStatus.html
@@ -891,12 +1576,12 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration
   nameWithType: BuySwordConsideration
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_BuySwordConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: BuySwordConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_BuySwordConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: BuySwordConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.BuySwordConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_BuySwordConsideration_GetScore_
@@ -1054,12 +1739,12 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration
   nameWithType: HasMonsterConsideration
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasMonsterConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: HasMonsterConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasMonsterConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: HasMonsterConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasMonsterConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasMonsterConsideration_GetScore_
@@ -1073,12 +1758,12 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration
   nameWithType: HasWeaponConsideration
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasWeaponConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: HasWeaponConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasWeaponConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: HasWeaponConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWeaponConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasWeaponConsideration_GetScore_
@@ -1105,12 +1790,12 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.Bind
   nameWithType: HasWorkConsideration.Bind
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasWorkConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: HasWorkConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasWorkConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: HasWorkConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HasWorkConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HasWorkConsideration_GetScore_
@@ -1124,12 +1809,12 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration
   nameWithType: HungerConsideration
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HungerConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: HungerConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HungerConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: HungerConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_HungerConsideration_GetScore_
@@ -1137,6 +1822,32 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.HungerConsideration.GetScore
   nameWithType: HungerConsideration.GetScore
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject`1
+  name: IManagerObject<T>
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject-1.html
+  commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject`1
+  name.vb: IManagerObject(Of T)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject<T>
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject(Of T)
+  nameWithType: IManagerObject<T>
+  nameWithType.vb: IManagerObject(Of T)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject`1.Bind(`0)
+  name: Bind(T)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject-1.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_IManagerObject_1_Bind__0_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject`1.Bind(`0)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject<T>.Bind(T)
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject(Of T).Bind(T)
+  nameWithType: IManagerObject<T>.Bind(T)
+  nameWithType.vb: IManagerObject(Of T).Bind(T)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject`1.Bind*
+  name: Bind
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject-1.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_IManagerObject_1_Bind_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject`1.Bind
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject<T>.Bind
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.IManagerObject(Of T).Bind
+  nameWithType: IManagerObject<T>.Bind
+  nameWithType.vb: IManagerObject(Of T).Bind
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory
   name: Inventory
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory.html
@@ -1161,6 +1872,49 @@ references:
   commentId: F:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory.Wood
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.Inventory.Wood
   nameWithType: Inventory.Wood
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1
+  name: ManagerObject<TManager>
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.html
+  commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1
+  name.vb: ManagerObject(Of TManager)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject<TManager>
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject(Of TManager)
+  nameWithType: ManagerObject<TManager>
+  nameWithType.vb: ManagerObject(Of TManager)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Bind(`0)
+  name: Bind(TManager)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ManagerObject_1_Bind__0_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Bind(`0)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject<TManager>.Bind(TManager)
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject(Of TManager).Bind(TManager)
+  nameWithType: ManagerObject<TManager>.Bind(TManager)
+  nameWithType.vb: ManagerObject(Of TManager).Bind(TManager)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Bind*
+  name: Bind
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ManagerObject_1_Bind_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Bind
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject<TManager>.Bind
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject(Of TManager).Bind
+  nameWithType: ManagerObject<TManager>.Bind
+  nameWithType.vb: ManagerObject(Of TManager).Bind
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Manager
+  name: Manager
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ManagerObject_1_Manager
+  commentId: P:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Manager
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject<TManager>.Manager
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject(Of TManager).Manager
+  nameWithType: ManagerObject<TManager>.Manager
+  nameWithType.vb: ManagerObject(Of TManager).Manager
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Manager*
+  name: Manager
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject-1.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ManagerObject_1_Manager_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject`1.Manager
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject<TManager>.Manager
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ManagerObject(Of TManager).Manager
+  nameWithType: ManagerObject<TManager>.Manager
+  nameWithType.vb: ManagerObject(Of TManager).Manager
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration
   name: MoneyConsideration
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html
@@ -1173,12 +1927,12 @@ references:
   commentId: F:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.Factor
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.Factor
   nameWithType: MoneyConsideration.Factor
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MoneyConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: MoneyConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MoneyConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: MoneyConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MoneyConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_MoneyConsideration_GetScore_
@@ -1242,6 +1996,133 @@ references:
   commentId: F:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.Stopwatch
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.MonsterManager.Stopwatch
   nameWithType: MonsterManager.Stopwatch
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2
+  name: ObjectManager<T, TManager>
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html
+  commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2
+  name.vb: ObjectManager(Of T, TManager)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager)
+  nameWithType: ObjectManager<T, TManager>
+  nameWithType.vb: ObjectManager(Of T, TManager)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Add(`0)
+  name: Add(T)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Add__0_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Add(`0)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Add(T)
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Add(T)
+  nameWithType: ObjectManager<T, TManager>.Add(T)
+  nameWithType.vb: ObjectManager(Of T, TManager).Add(T)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Add*
+  name: Add
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Add_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Add
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Add
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Add
+  nameWithType: ObjectManager<T, TManager>.Add
+  nameWithType.vb: ObjectManager(Of T, TManager).Add
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.ConcreteManager
+  name: ConcreteManager
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_ConcreteManager
+  commentId: P:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.ConcreteManager
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.ConcreteManager
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).ConcreteManager
+  nameWithType: ObjectManager<T, TManager>.ConcreteManager
+  nameWithType.vb: ObjectManager(Of T, TManager).ConcreteManager
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.ConcreteManager*
+  name: ConcreteManager
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_ConcreteManager_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.ConcreteManager
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.ConcreteManager
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).ConcreteManager
+  nameWithType: ObjectManager<T, TManager>.ConcreteManager
+  nameWithType.vb: ObjectManager(Of T, TManager).ConcreteManager
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Count
+  name: Count
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Count
+  commentId: P:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Count
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Count
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Count
+  nameWithType: ObjectManager<T, TManager>.Count
+  nameWithType.vb: ObjectManager(Of T, TManager).Count
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Count*
+  name: Count
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Count_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Count
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Count
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Count
+  nameWithType: ObjectManager<T, TManager>.Count
+  nameWithType.vb: ObjectManager(Of T, TManager).Count
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.GetFirstOrDefault
+  name: GetFirstOrDefault()
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_GetFirstOrDefault
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.GetFirstOrDefault
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.GetFirstOrDefault()
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).GetFirstOrDefault()
+  nameWithType: ObjectManager<T, TManager>.GetFirstOrDefault()
+  nameWithType.vb: ObjectManager(Of T, TManager).GetFirstOrDefault()
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.GetFirstOrDefault*
+  name: GetFirstOrDefault
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_GetFirstOrDefault_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.GetFirstOrDefault
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.GetFirstOrDefault
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).GetFirstOrDefault
+  nameWithType: ObjectManager<T, TManager>.GetFirstOrDefault
+  nameWithType.vb: ObjectManager(Of T, TManager).GetFirstOrDefault
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Objects
+  name: Objects
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Objects
+  commentId: F:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Objects
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Objects
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Objects
+  nameWithType: ObjectManager<T, TManager>.Objects
+  nameWithType.vb: ObjectManager(Of T, TManager).Objects
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Prefab
+  name: Prefab
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Prefab
+  commentId: F:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Prefab
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Prefab
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Prefab
+  nameWithType: ObjectManager<T, TManager>.Prefab
+  nameWithType.vb: ObjectManager(Of T, TManager).Prefab
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Remove(`0)
+  name: Remove(T)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Remove__0_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Remove(`0)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Remove(T)
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Remove(T)
+  nameWithType: ObjectManager<T, TManager>.Remove(T)
+  nameWithType.vb: ObjectManager(Of T, TManager).Remove(T)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Remove*
+  name: Remove
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Remove_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Remove
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Remove
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Remove
+  nameWithType: ObjectManager<T, TManager>.Remove
+  nameWithType.vb: ObjectManager(Of T, TManager).Remove
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Spawn(Vector3,Quaternion,Transform)
+  name: Spawn(Vector3, Quaternion, Transform)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Spawn_Vector3_Quaternion_Transform_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Spawn(Vector3,Quaternion,Transform)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Spawn(Vector3, Quaternion, Transform)
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Spawn(Vector3, Quaternion, Transform)
+  nameWithType: ObjectManager<T, TManager>.Spawn(Vector3, Quaternion, Transform)
+  nameWithType.vb: ObjectManager(Of T, TManager).Spawn(Vector3, Quaternion, Transform)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Spawn*
+  name: Spawn
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager-2.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_ObjectManager_2_Spawn_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager`2.Spawn
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager<T, TManager>.Spawn
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.ObjectManager(Of T, TManager).Spawn
+  nameWithType: ObjectManager<T, TManager>.Spawn
+  nameWithType.vb: ObjectManager(Of T, TManager).Spawn
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction
   name: SleepAction
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepAction.html
@@ -1280,12 +2161,12 @@ references:
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration
   fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration
   nameWithType: SleepinessConsideration
-- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SleepinessConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: SleepinessConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SleepinessConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: SleepinessConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.FarmerHero.SleepinessConsideration.html#TinnyStudios_AIUtility_Impl_Examples_FarmerHero_SleepinessConsideration_GetScore_
@@ -1549,17 +2430,47 @@ references:
   commentId: N:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell
   fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell
   nameWithType: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType
+  name: EElementType
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html
+  commentId: T:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType
+  nameWithType: EElementType
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Fire
+  name: Fire
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_Fire
+  commentId: F:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Fire
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Fire
+  nameWithType: EElementType.Fire
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.None
+  name: None
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_None
+  commentId: F:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.None
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.None
+  nameWithType: EElementType.None
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Normal
+  name: Normal
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_Normal
+  commentId: F:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Normal
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Normal
+  nameWithType: EElementType.Normal
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Water
+  name: Water
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_Water
+  commentId: F:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Water
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType.Water
+  nameWithType: EElementType.Water
 - uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait
   name: ElementTrait
   href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html
   commentId: T:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait
   fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait
   nameWithType: ElementTrait
-- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor(EElementType,EElementType,EElementType)
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType,TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType,TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)
   name: ElementTrait(EElementType, EElementType, EElementType)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait__ctor_EElementType_EElementType_EElementType_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor(EElementType,EElementType,EElementType)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.ElementTrait(EElementType, EElementType, EElementType)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait__ctor_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType,TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType,TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.ElementTrait(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType, TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType, TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)
   nameWithType: ElementTrait.ElementTrait(EElementType, EElementType, EElementType)
 - uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.#ctor*
   name: ElementTrait
@@ -1568,11 +2479,11 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.ElementTrait
   nameWithType: ElementTrait.ElementTrait
-- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(EElementType)
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)
   name: GetEffectiveness(EElementType)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_GetEffectiveness_EElementType_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(EElementType)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(EElementType)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_ElementTrait_GetEffectiveness_TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_EElementType_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness(TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.EElementType)
   nameWithType: ElementTrait.GetEffectiveness(EElementType)
 - uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.GetEffectiveness*
   name: GetEffectiveness
@@ -1599,6 +2510,32 @@ references:
   commentId: F:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.WeakTo
   fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.ElementTrait.WeakTo
   nameWithType: ElementTrait.WeakTo
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind`1
+  name: IDataBind<T>
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind-1.html
+  commentId: T:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind`1
+  name.vb: IDataBind(Of T)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind<T>
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind(Of T)
+  nameWithType: IDataBind<T>
+  nameWithType.vb: IDataBind(Of T)
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind`1.Bind(`0)
+  name: Bind(T)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind-1.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_IDataBind_1_Bind__0_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind`1.Bind(`0)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind<T>.Bind(T)
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind(Of T).Bind(T)
+  nameWithType: IDataBind<T>.Bind(T)
+  nameWithType.vb: IDataBind(Of T).Bind(T)
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind`1.Bind*
+  name: Bind
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind-1.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_IDataBind_1_Bind_
+  commentId: Overload:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind`1.Bind
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind<T>.Bind
+  fullName.vb: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.IDataBind(Of T).Bind
+  nameWithType: IDataBind<T>.Bind
+  nameWithType.vb: IDataBind(Of T).Bind
 - uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.RuntimeSpellAttackData
   name: RuntimeSpellAttackData
   href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.RuntimeSpellAttackData.html
@@ -1705,12 +2642,12 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.Bind
   nameWithType: SpellElementConsideration.Bind
-- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellElementConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: SpellElementConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellElementConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: SpellElementConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellElementConsideration.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellElementConsideration_GetScore_
@@ -1737,12 +2674,12 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.Bind
   nameWithType: SpellQuantityConsideration.Bind
-- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  name: GetScore(Agent)
-  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellQuantityConsideration_GetScore_TinnyStudios_AIUtility_Agent_
-  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore(TinnyStudios.AIUtility.Agent)
-  nameWithType: SpellQuantityConsideration.GetScore(Agent)
+- uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  name: GetScore(Agent, IUtilityAction)
+  href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellQuantityConsideration_GetScore_TinnyStudios_AIUtility_Agent_TinnyStudios_AIUtility_IUtilityAction_
+  commentId: M:TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore(TinnyStudios.AIUtility.Agent,TinnyStudios.AIUtility.IUtilityAction)
+  fullName: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore(TinnyStudios.AIUtility.Agent, TinnyStudios.AIUtility.IUtilityAction)
+  nameWithType: SpellQuantityConsideration.GetScore(Agent, IUtilityAction)
 - uid: TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.GetScore*
   name: GetScore
   href: api/TinnyStudios.AIUtility.Impl.Examples.TurnBasedSpell.SpellQuantityConsideration.html#TinnyStudios_AIUtility_Impl_Examples_TurnBasedSpell_SpellQuantityConsideration_GetScore_
@@ -2048,6 +2985,19 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.IUtilityAction.Perform
   nameWithType: IUtilityAction.Perform
+- uid: TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  name: PropertySet
+  href: api/TinnyStudios.AIUtility.IUtilityAction.html#TinnyStudios_AIUtility_IUtilityAction_PropertySet
+  commentId: P:TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  fullName: TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  nameWithType: IUtilityAction.PropertySet
+- uid: TinnyStudios.AIUtility.IUtilityAction.PropertySet*
+  name: PropertySet
+  href: api/TinnyStudios.AIUtility.IUtilityAction.html#TinnyStudios_AIUtility_IUtilityAction_PropertySet_
+  commentId: Overload:TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  nameWithType: IUtilityAction.PropertySet
 - uid: TinnyStudios.AIUtility.IUtilityAction.Score
   name: Score
   href: api/TinnyStudios.AIUtility.IUtilityAction.html#TinnyStudios_AIUtility_IUtilityAction_Score
@@ -2635,6 +3585,12 @@ references:
   commentId: F:TinnyStudios.AIUtility.UtilityAction.PerformData
   fullName: TinnyStudios.AIUtility.UtilityAction.PerformData
   nameWithType: UtilityAction.PerformData
+- uid: TinnyStudios.AIUtility.UtilityAction.PropertySet
+  name: PropertySet
+  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_PropertySet
+  commentId: F:TinnyStudios.AIUtility.UtilityAction.PropertySet
+  fullName: TinnyStudios.AIUtility.UtilityAction.PropertySet
+  nameWithType: UtilityAction.PropertySet
 - uid: TinnyStudios.AIUtility.UtilityAction.ReachedPerformDuration
   name: ReachedPerformDuration
   href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_ReachedPerformDuration
@@ -2800,6 +3756,23 @@ references:
   fullName: TinnyStudios.AIUtility.UtilityAction.TinnyStudios.AIUtility.IUtilityAction.Name
   nameWithType: UtilityAction.IUtilityAction.Name
   nameWithType.vb: UtilityAction.TinnyStudios.AIUtility.IUtilityAction.Name
+- uid: TinnyStudios.AIUtility.UtilityAction.TinnyStudios#AIUtility#IUtilityAction#PropertySet
+  name: IUtilityAction.PropertySet
+  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_TinnyStudios_AIUtility_IUtilityAction_PropertySet
+  commentId: P:TinnyStudios.AIUtility.UtilityAction.TinnyStudios#AIUtility#IUtilityAction#PropertySet
+  name.vb: TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  fullName: TinnyStudios.AIUtility.UtilityAction.TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  nameWithType: UtilityAction.IUtilityAction.PropertySet
+  nameWithType.vb: UtilityAction.TinnyStudios.AIUtility.IUtilityAction.PropertySet
+- uid: TinnyStudios.AIUtility.UtilityAction.TinnyStudios#AIUtility#IUtilityAction#PropertySet*
+  name: IUtilityAction.PropertySet
+  href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_TinnyStudios_AIUtility_IUtilityAction_PropertySet_
+  commentId: Overload:TinnyStudios.AIUtility.UtilityAction.TinnyStudios#AIUtility#IUtilityAction#PropertySet
+  isSpec: "True"
+  name.vb: TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  fullName: TinnyStudios.AIUtility.UtilityAction.TinnyStudios.AIUtility.IUtilityAction.PropertySet
+  nameWithType: UtilityAction.IUtilityAction.PropertySet
+  nameWithType.vb: UtilityAction.TinnyStudios.AIUtility.IUtilityAction.PropertySet
 - uid: TinnyStudios.AIUtility.UtilityAction.TinnyStudios#AIUtility#IUtilityAction#State
   name: IUtilityAction.State
   href: api/TinnyStudios.AIUtility.UtilityAction.html#TinnyStudios_AIUtility_UtilityAction_TinnyStudios_AIUtility_IUtilityAction_State

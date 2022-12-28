@@ -89,10 +89,20 @@
   </h3>
       <h4><a class="xref" href="TinnyStudios.AIUtility.ActionMoveData.html">ActionMoveData</a></h4>
       <section><p>The base data used by <a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a> to set destination and properties.
-This isn't a scriptable object because DestinationTransform would not be able to reference a scene object.</p>
+This isn't a scriptable object because DestinationTransform would not be able to reference a scene object.
+This class is partial so you can extend it with more properties.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.ActionMoveProperties.html">ActionMoveProperties</a></h4>
+      <section><p>Move Properties used by <a class="xref" href="TinnyStudios.AIUtility.ActionMoveData.html">ActionMoveData</a></p>
 </section>
       <h4><a class="xref" href="TinnyStudios.AIUtility.ActionPerformData.html">ActionPerformData</a></h4>
-      <section><p>The performing data for <a class="xref" href="TinnyStudios.AIUtility.UtilityAction.html">UtilityAction</a>.</p>
+      <section><p>The performing data for <a class="xref" href="TinnyStudios.AIUtility.UtilityAction.html">UtilityAction</a>.
+This class is partial so you can extend it with more properties.</p>
+</section>
+      <h4><a class="xref" href="TinnyStudios.AIUtility.ActionPerformProperties.html">ActionPerformProperties</a></h4>
+      <section><p>Perform Properties used by <a class="xref" href="TinnyStudios.AIUtility.ActionPerformData.html">ActionPerformData</a>
+This is bare bones at the moment but in the future may include Action Delay, a list of animation to trigger etc.
+If you wish to extend it, feel free to just inherit it and cast it in the mean time.</p>
 </section>
       <h4><a class="xref" href="TinnyStudios.AIUtility.Agent.html">Agent</a></h4>
       <section><p>The brain of the Utility AI. It controls the  states and uses the <a class="xref" href="TinnyStudios.AIUtility.Agent.html#TinnyStudios_AIUtility_Agent_UtilityPlanner">UtilityPlanner</a> to find the best action.</p>
@@ -112,7 +122,8 @@ Think of this as a question &quot;How Hungry am I?&quot; 1 = Hungry, 0 = Not Hun
 You have to implement your own, see <a class="xref" href="TinnyStudios.AIUtility.MoveSystemNavMeshExample.html">MoveSystemNavMeshExample</a> for an example.</p>
 </section>
       <h4><a class="xref" href="TinnyStudios.AIUtility.MoveSystemNavMeshExample.html">MoveSystemNavMeshExample</a></h4>
-      <section></section>
+      <section><p>An example implementation of <a class="xref" href="TinnyStudios.AIUtility.MoveSystemBase.html">MoveSystemBase</a> for Unity Nav Mesh Agents.</p>
+</section>
       <h4><a class="xref" href="TinnyStudios.AIUtility.StopwatchWatcher.html">StopwatchWatcher</a></h4>
       <section><p>An implementation of <a class="xref" href="TinnyStudios.AIUtility.TimeWatcher.html">TimeWatcher</a> as a time counter using Stopwatch.
 This is used to track how long as action has performed for.</p>
