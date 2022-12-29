@@ -92,6 +92,10 @@
     <div class="level1"><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html">PropertySet</a>&lt;<a class="xref" href="TinnyStudios.AIUtility.Core.Properties.Property-1.html">Property</a>&lt;<a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;, <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.int32">Int32</a>&gt;</div>
     <div class="level2"><span class="xref">IntPropertySet</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="TinnyStudios.AIUtility.Core.Properties.IPropertySet.html">IPropertySet</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -142,7 +146,11 @@
   <h5 id="TinnyStudios_AIUtility_Core_Properties_IntPropertySet_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[Serializable]
-public class IntPropertySet : PropertySet&lt;Property&lt;int&gt;, int&gt;</code></pre>
+public class IntPropertySet : PropertySet&lt;Property&lt;int&gt;, int&gt;, IPropertySet</code></pre>
+  </div>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="TinnyStudios.AIUtility.Core.Properties.IPropertySet.html">IPropertySet</a>
   </div>
 </article>
           </div>

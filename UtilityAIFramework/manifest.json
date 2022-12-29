@@ -161,7 +161,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.BoolPropertySet.html",
-          "hash": "KOI4sPGccv9Y/BpML10v0xx6KLCOm+l0LyRIMX83YMw="
+          "hash": "0rQFb5aSRvjfwWISbHBccvmbjEoian9iNDLveCWeSHU="
         }
       },
       "is_incremental": false,
@@ -185,7 +185,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.FloatPropertySet.html",
-          "hash": "eRlRZzje5eDBIXoOU8H89hedOgJFCmOgp+99ms+Ssaw="
+          "hash": "6oPGe05dmdxfETY+yZTlQ4FkOfVyHJhp3gjdcySZGBU="
         }
       },
       "is_incremental": false,
@@ -205,11 +205,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.IPropertySet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.IPropertySet.html",
+          "hash": "bZuhCgno+FN6Hi5APMdUBXlNO/ewYp/qyaw+vq5LfbE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "obj/api/TinnyStudios.AIUtility.Core.Properties.IntPropertySet.yml",
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.IntPropertySet.html",
-          "hash": "T4hjvcU9+a6+KjxLqmiP8vas4W4bgbSnPp3l6XdQqHI="
+          "hash": "8nNuTnNWL8al5gIm4jsWn+bBW8/OGJ+VJjkbQx9EEEQ="
         }
       },
       "is_incremental": false,
@@ -245,7 +257,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.PropertySet-2.html",
-          "hash": "M7BNg9E6AwLBLGXbiUHfK2vYVrOqeAorUuuXrSg7b/A="
+          "hash": "+jrGZjD7TvU4RhI/z2DJOUDmv0C2wtQpOpYju/Hi+nc="
         }
       },
       "is_incremental": false,
@@ -269,7 +281,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html",
-          "hash": "hEvkr9UIlYYLnfCjvce9Jgqcee6jxquCaUmVKza7PqM="
+          "hash": "XfByWyfnKZKrRUSHH/WrDuEVrgLZYnkcNebB88Uzgho="
         }
       },
       "is_incremental": false,
@@ -281,7 +293,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.TransformPropertySet.html",
-          "hash": "XOy9dvAuHxlX164hahoLfgsE9xfOY6i2QCsxQQWJKck="
+          "hash": "WEdUmO33+ItWIgM1Ev/N6ekRQZ9xgPCmO4NfzlzIdm8="
         }
       },
       "is_incremental": false,
@@ -305,7 +317,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.Vector3PropertySet.html",
-          "hash": "F38YaiRIR8bg1DAVEuovBd7t50Rz3tfoXKM4LC9lwss="
+          "hash": "5rFKtypOXdGykqzwUvAbFXUP1jeV19OMf5RgD2pTPP8="
         }
       },
       "is_incremental": false,
@@ -317,7 +329,7 @@
       "output": {
         ".html": {
           "relative_path": "api/TinnyStudios.AIUtility.Core.Properties.html",
-          "hash": "fjmhpd45KhqUUck423GIda1hQK5+cSlQI4g/+NKQ+hA="
+          "hash": "ggdyZKLfhou4uFUUY43whWo6vHZfw/wiZcXpgX2z27U="
         }
       },
       "is_incremental": false,
@@ -1013,7 +1025,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dNo3f2hnDJJWOEehmuIxcMqdh00mzm1oxNmAPONAqPU="
+          "hash": "DzlhQNjVTcPHuT9cHxvWlCZXJz6E35V09s3KddoX7S0="
         }
       },
       "is_incremental": false,
@@ -1053,8 +1065,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 88,
-          "skipped_file_count": 87
+          "total_file_count": 89,
+          "skipped_file_count": 79
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

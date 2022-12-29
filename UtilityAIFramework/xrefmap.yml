@@ -685,6 +685,25 @@ references:
   fullName.vb: TinnyStudios.AIUtility.Core.Properties.IProperty(Of T).Value
   nameWithType: IProperty<T>.Value
   nameWithType.vb: IProperty(Of T).Value
+- uid: TinnyStudios.AIUtility.Core.Properties.IPropertySet
+  name: IPropertySet
+  href: api/TinnyStudios.AIUtility.Core.Properties.IPropertySet.html
+  commentId: T:TinnyStudios.AIUtility.Core.Properties.IPropertySet
+  fullName: TinnyStudios.AIUtility.Core.Properties.IPropertySet
+  nameWithType: IPropertySet
+- uid: TinnyStudios.AIUtility.Core.Properties.IPropertySet.Initialize
+  name: Initialize()
+  href: api/TinnyStudios.AIUtility.Core.Properties.IPropertySet.html#TinnyStudios_AIUtility_Core_Properties_IPropertySet_Initialize
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.IPropertySet.Initialize
+  fullName: TinnyStudios.AIUtility.Core.Properties.IPropertySet.Initialize()
+  nameWithType: IPropertySet.Initialize()
+- uid: TinnyStudios.AIUtility.Core.Properties.IPropertySet.Initialize*
+  name: Initialize
+  href: api/TinnyStudios.AIUtility.Core.Properties.IPropertySet.html#TinnyStudios_AIUtility_Core_Properties_IPropertySet_Initialize_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.IPropertySet.Initialize
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.IPropertySet.Initialize
+  nameWithType: IPropertySet.Initialize
 - uid: TinnyStudios.AIUtility.Core.Properties.Property`1
   name: Property<T>
   href: api/TinnyStudios.AIUtility.Core.Properties.Property-1.html
@@ -1027,6 +1046,19 @@ references:
   commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Clone
   fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Clone
   nameWithType: PropertySetRuntime.Clone
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.GetInstance
+  name: GetInstance()
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_GetInstance
+  commentId: M:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.GetInstance
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.GetInstance()
+  nameWithType: PropertySetRuntime.GetInstance()
+- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.GetInstance*
+  name: GetInstance
+  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_GetInstance_
+  commentId: Overload:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.GetInstance
+  isSpec: "True"
+  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.GetInstance
+  nameWithType: PropertySetRuntime.GetInstance
 - uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialize
   name: Initialize()
   href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Initialize
@@ -1053,12 +1085,6 @@ references:
   isSpec: "True"
   fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Initialized
   nameWithType: PropertySetRuntime.Initialized
-- uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Instance
-  name: Instance
-  href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Instance
-  commentId: F:TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Instance
-  fullName: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Instance
-  nameWithType: PropertySetRuntime.Instance
 - uid: TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.Original
   name: Original
   href: api/TinnyStudios.AIUtility.Core.Properties.PropertySetRuntime.html#TinnyStudios_AIUtility_Core_Properties_PropertySetRuntime_Original
